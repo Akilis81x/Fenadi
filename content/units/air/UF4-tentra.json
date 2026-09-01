@@ -1,0 +1,262 @@
+{
+  "type": "flying",
+  "name": "Tentra",
+  "speed": 0.6,
+  "accel": 2,
+  "drag": 0.4,
+  "rotateSpeed": 0.6,
+  "flying": true,
+  "lowAltitude": true,
+  "faceTarget": true,
+  "crashDamageMultiplier": 7,
+  "research": "UE4-multi",
+  "health": 14700,
+  "armor": 16,
+  "engines": [
+{
+"x": -14,
+"y": -16,
+"radius": 8,
+"rotation": 90
+}
+{
+"x": 14,
+"y": -16,
+"radius": 8,
+"rotation": 90
+}
+]
+  "engineOffset": 18,
+  "engineSize": 6.6,
+  "engineColor": "d23333",
+  "hitSize": 40,
+  "targetFlags": ["drill"],
+  "weapons": [
+    {
+      "name": "UF4-tentra-side-arm-1",
+      "y": -6,
+      "x": 12,
+      "reload": 35,
+      "ejectEffect": "casing1",
+      "rotateSpeed": 8,
+      "shootSound": "missile",
+      "shoot": {
+        "shots": 4,
+        "shotDelay": 7
+      },
+      "rotate": true,
+      "bullet": {
+        "type": "MissileBulletType",
+        "speed": 2.7,
+        "damage": 58,
+        "width": 8,
+        "height": 8,
+        "shrinkY": 0,
+        "drag": -0.01,
+        "splashDamageRadius": 30,
+        "splashDamage": 40,
+        "lifetime": 70,
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
+        "trailColor": "d23333",
+        "frontColor": "e17f7f",
+        "backColor": "961f1f"
+        "homingPower": 2.8,
+        "homingRange": 65
+      }
+    },
+    {
+      "name": "UF4-tentra-side-arm-2",
+      "x": 0,
+      "y": -2,
+      "mirror": false,
+      "shootY": 10,
+      "rotate": true,
+      "rotateSpeed": 1.1,
+      "reload": 488,
+      "shake": 1,
+      "rotateSpeed": 2,
+      "recoil": 6,
+      "soundPitchMin": 0.95,
+      "soundPitchMax": 2.05,
+      "shootSound": "ascends",
+      "bullet": {
+        "type": "basicBulletType",
+        "lifetime": 130,
+        "damage": 420,
+        "width": 35,
+        "height": 35,
+        "lightRadius": 90,
+        "spin": 8,
+        "despawnEffect": "instBomb",
+        "shootEffect": "shieldWave",
+        "hitEffect": "instShoot",
+        "trailEffect": "shieldWave",
+        "trailChance": 1,
+        "speed": 5,
+        "shrinkY": 0,
+        "shrinkX": 0,
+        "drag": 0.02,
+        "splashDamage": 100,
+        "splashDamageRadius": 100,
+        "hitSound": "shockBoom",
+        "frontColor": "e17f7f",
+        "backColor": "961f1f"
+        "status": "fenadis-ignition",
+        "statusDuration": 300,
+        "hittable": false,
+        "reflectable": false,
+        "absorbable": true,
+        "sprite": "large-orb",
+        "homingPower": 0.0925,
+        "homingRange": 180,
+        "homingDelay": 55,
+        "length": 180
+      }
+    }
+{
+    "name": "UF4-tentra-weapon",
+    "shootSound": "shockblast",
+    "reload": 120,
+    "recoils": 2,
+    "shoot": {
+        "shots": 8,
+        "shotDelay": 4,
+      "type": "ShootBarrel"
+      "barrels": [
+        -15, 11, 0,
+        15, 11, 0,
+        -14, 10, 0,
+        14, 10, 0
+        ]
+      }
+   "y": 5,
+    "layerOffset": -20,
+    "x": 0,
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-barrel-1",
+        "progress": "recoil",
+        "moveY": 8,
+        "y": 0,
+        "recoilIndex": 0,
+        "mirror": false,
+        "under": true
+      }
+      {
+        "type": "RegionPart",
+        "suffix": "-barrel-2",
+        "progress": "recoil"
+        "moveY": 8,
+        "y": 0,
+        "recoilIndex": 1,
+        "mirror": false,
+        "under": true
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-barrel-3",
+        "progress": "recoil"
+        "moveY": 8,
+        "y": 0,
+        "recoilIndex": 0,
+        "mirror": false,
+        "under": true
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-barrel-4",
+        "progress": "recoil"
+        "moveY": 8,
+        "y": 0,
+        "recoilIndex": 1,
+        "mirror": false,
+        "under": true
+      }
+    ]
+    "mirror": false,
+    "rotate": false,
+     "bullet": {
+        "type": "BasicBulletType",
+        "width": 11,
+        "height": 20,
+        "lifetime": 38,
+        "speed": 7,
+        "damage": 15,
+        "shootEffect": "shootBig",
+        "lightning": 8,
+        "lightningLength": 7,
+        "lightningColor": "e17f7f",
+        "lightningDamage": 5
+        "frontColor": "e17f7f",
+        "backColor": "961f1f"
+      },
+      "pointEffect": {
+        "type": "MultiEffect",
+        "effects": [
+          {
+            "type": "ParticleEffect",
+            "region": "-barrel-1",
+            "lifetime": 40,
+            "length": 0,
+            "sizeFrom": 4,
+            "sizeTo": 4
+          }
+          {
+            "type": "ParticleEffect",
+            "region": "-barrel-2",
+            "lifetime": 40,
+            "length": 0,
+            "sizeFrom": 4,
+            "sizeTo": 4,
+            "startDelay": 10
+          }
+          {
+            "type": "ParticleEffect",
+            "region": "-barrel-3",
+            "lifetime": 40,
+            "length": 0,
+            "sizeFrom": 4,
+            "sizeTo": 4,
+            "startDelay": 20
+          }
+          {
+            "type": "ParticleEffect",
+            "region": "-barrel-4",
+            "lifetime": 40,
+            "length": 0,
+            "sizeFrom": 4,
+            "sizeTo": 4,
+            "startDelay": 30
+          }
+      ]
+      }
+      "hitEffect": "massiveExplosion"
+    }
+  ]
+"abilities": [
+  {
+    "type": "SpawnDeathAbility",
+    "amount": 4,
+    "faceOutwards": true,
+    "spread": 90,
+    "unit": "UE0-sentinel",
+  },
+  {
+    "type": "SpawnDeathAbility",
+    "amount": 8,
+    "spread": 45,
+    "faceOutwards": true,
+    "unit": "UD2-lure",
+  },
+  {
+    "type": "SpawnDeathAbility",
+    "amount": 2,
+    "spread": 45,
+    "faceOutwards": true,
+    "unit": "UE2-sturdy",
+  }
+]
+}
+
