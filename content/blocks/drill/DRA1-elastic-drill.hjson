@@ -1,0 +1,66 @@
+{ 
+"name": "Elastic Drill", 
+"type": "Drill", 
+"blockedItems": [
+"i02-tinium",
+"i09-lagavo"
+],
+  "updateEffectChance": 0.1,
+  "drawMineItem": false,
+  "warmupSpeed": 0.025,
+  "size": 2, 
+  "drillMultipliers": {
+        "i01-basic-mass": 2,
+        "i04-debris": 5,
+        "i05-crystalia": 2.5,
+        "i08-igneous-crystalia": 2.5
+        "io02-drained-crystalia": 1.8,
+        "io03-extinguished-igneous-crystalia": 1.8,
+}
+"updateEffect": 
+    {
+      "type": "ParticleEffect",
+      "particles": 8,
+      "line": true,
+      "sizeFrom": 1,
+      "sizeTo": 2,
+      "interp": "pow2Out"
+      "colorFrom": "468e4c",
+      "colorTo": "468e4c"
+},
+"hasPower": true, 
+"drawRim": false, 
+"hasLiquids": true, 
+"liquidCapacity": 80, 
+"hasItems": true, 
+"itemCapacity": 20, 
+"tier": 3, 
+"drillTime": 80, 
+"rotateSpeed": 12, 
+"liquidBoostIntensity": 1.7,
+"consumes": { 
+"power": 1.5, 
+"liquid": {
+ "liquid": "l01-yavama", 
+"amount": 0.1,
+ "optional": true, 
+"booster": true,
+}
+ }, 
+"requirements": [
+"i01-basic-mass/150",
+"i02-tinium/80",
+"i03-elastic-fiber/60"
+],
+"category": "production",
+  "research": {
+  "parent": "DRA0-basic-drill"
+  "objectives": [
+    {
+      "type": "SectorComplete"
+     "preset": "s02-abandoned-storage-area"
+    }
+  ]
+}
+  "shownPlanets": ["Fenadi"]
+}

@@ -1,0 +1,15 @@
+type: Pump
+name: Lizandri Pump
+size: 2
+category: liquid
+liquidCapacity: 100
+squareSprite: false
+requirements: [
+  i05-crystalia/40
+  i06-lizandri/20
+]
+pumpAmount: 0.1
+researchCostMultiplier: 1.5
+research: LIA3-lizandri-router
+buildCostMultiplier: 0.5
+shownPlanets: [Fenadi]

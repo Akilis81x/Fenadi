@@ -1,0 +1,18 @@
+{
+type: DirectionLiquidBridge
+name: Lizandri Brigde
+health: 150
+researchCostMultiplier: 0.5
+fadeIn: false
+moveArrows: true
+arrowSpacing: 6
+liquidCapacity: 150
+range: 7
+category: liquid
+shownPlanets: [Fenadi]
+research: LIA1-lizandri-junction
+requirements: [
+   i05-crystalia/15
+   i06-lizandri/4
+   ]
+}

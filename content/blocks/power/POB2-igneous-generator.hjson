@@ -1,0 +1,52 @@
+{
+"type": "ConsumeGenerator",
+"squareSprite": false,
+"name": "Igneous Generator",
+"health": 1200,
+"size": 3,
+"powerProduction": 34,
+"drawer": {
+"type": "DrawMulti",
+"drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom" 
+},
+{
+        "type": "DrawDefault",
+ },
+      {
+        "type": "DrawLiquidRegion",
+        "suffix": "-liquid",
+        "drawLiquid": "l02-soro"
+}
+]
+},
+"hasItems": true,
+"hasLiquids": true
+"itemCapacity": 20,
+"liquidCapacity": 100,
+"itemDuration": 90,
+"consumes": {
+"liquids": ["l02-soro/0.1"]
+"items": ["i08-igneous-crystalia/4"]
+},
+"squareSprite": true,
+"requirements": [
+"i07-advanced-mass/150",
+"i02-tinium/460",
+"i03-elastic-fiber/500",
+"i06-lizandri/400"
+],
+"category": "power",
+"research": {
+"parent": "POA5-atmospheric-drainage-platform",
+},
+"craftEffect": "instBomb",
+"updateEffect": "none",
+"loopSound": "hum",
+"loopSoundVolume": 1.95,
+"ambientSound": "machine",
+"ambientSoundVolume": 0.5
+"shownPlanets": ["Fenadi"]
+}

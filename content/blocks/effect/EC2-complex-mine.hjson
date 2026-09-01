@@ -1,0 +1,27 @@
+type: ShockMine
+  name: Complex Mine
+  hasShadow: false
+  health: 160
+  damage: 5170
+  tileDamage: 42
+  length: 24
+  tendrils: 6
+  category: effect
+  bullet: {
+    type: ExplosionBulletType
+    splashDamage: 2275
+    splashDamageRadius: 54
+    killShooter: true
+    status: fenadis-cyber-strike
+    statusDuration: 600
+  }
+  requirements: [
+    i13-complex-mass/180
+    i14-otucium/75
+    i16-complex-fiber/80
+  ]
+researchCostMultiplier: 0.5
+category: effect
+research: EB5-optical-mine
+buildCostMultiplier: 1.15
+shownPlanets: [Fenadi]

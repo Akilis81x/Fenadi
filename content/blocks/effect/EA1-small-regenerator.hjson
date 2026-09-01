@@ -1,0 +1,44 @@
+type: RegenProjector
+name: Small Regenerator
+size: 2
+range: 17
+baseColor: 468e4c
+squareSprite: false
+consumes: {
+  power: 2
+  liquids: {
+    liquids: [
+      l01-yavama/0.1
+    ]
+    optional: true
+    booster: true
+    optionalUseTime: 595
+    optionalMultiplier: 0.8
+    healPercent: 0.08
+  }
+}
+requirements: [
+  i01-basic-mass/120
+  i02-tinium/80
+  i03-elastic-fiber/90
+]
+category: effect
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawPulseShape
+      square: true
+      color: 468e4c
+      layer: 110
+    }
+  ]
+} 
+researchCostMultiplier: 0.5
+category: effect
+research: EA0-core-town
+buildCostMultiplier: 1.15
+shownPlanets: [Fenadi]

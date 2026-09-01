@@ -1,0 +1,37 @@
+{
+  "type": "MassDriver",
+  "name": "Compressed Catapult",
+  "health": 220,
+  "itemCapacity": 50,
+  "reload": 130
+  "range": 200,
+  "size": 2,
+  "consumes": {
+    "power": 0.8
+  },
+  "requirements": [
+    {
+      "item": "i01-basic-mass",
+      "amount": 500
+    },  
+    {
+      "item": "i03-elastic-fiber",
+      "amount": 210
+},
+{
+      "item": "i06-lizandri",
+      "amount": 60
+    }
+  ],
+  "category": "distribution",
+  "research": {
+  "parent": "DIA8-lizandri-conveyor"
+  "objectives": [
+    {
+     "type": "OnSector"
+     "preset": "s05-corrupt-pit"
+    }
+  ]
+}
+  "shownPlanets": ["Fenadi"]
+}

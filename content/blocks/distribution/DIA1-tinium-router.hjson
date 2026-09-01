@@ -1,0 +1,20 @@
+name: Tinium Router
+type: StackRouter
+health: 50
+itemCapacity: 10
+speed: 2.8
+requirements: [
+  i01-basic-mass/4
+  i02-tinium/4
+]
+category: distribution
+  research: {
+  parent: DIA0-tinium-conveyor
+  objectives: [
+    {
+     type: OnSector
+     preset: s01-isolated-valley
+    }
+  ]
+}
+shownPlanets: [Fenadi]

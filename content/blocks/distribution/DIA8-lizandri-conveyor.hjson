@@ -1,0 +1,23 @@
+type: StackConveyor
+name: Lizandri Conveyor
+health: 620
+itemCapacity: 15
+speed: 0.10
+outputRouter: false
+underBullets: true
+baseEfficiency: 1
+requirements: [
+  i02-tinium/5
+  i06-lizandri/1
+]
+category: distribution
+  research: {
+  parent: DIA0-tinium-conveyor
+  objectives: [
+    {
+     type: SectorComplete
+     preset: s05-corrupt-pit
+    }
+  ]
+}
+shownPlanets: [Fenadi]

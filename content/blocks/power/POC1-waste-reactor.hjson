@@ -1,0 +1,41 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Waste Reactor",
+  "size": 2,
+  "health": 85,
+  "consumeEffect": "surgeCruciSmoke",
+  "explodeOnFull": false,
+  "itemDuration": 30,
+  "consumes": {
+    "liquid": "l06-waste-liquid/0.5"
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom" 
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "l06-waste-liquid"
+      },
+      {
+        "type": "DrawDefault" 
+      }
+    ]
+  },
+  "shownPlanets": ["Fenadi"]
+  "category": "power",
+  "research": "POB4-contaminated-reactor",
+  "powerProduction": 13,
+  "hasLiquids": true,
+  "liquidCapacity": 500,
+  "requirements": [
+    "i13-complex-mass/70",
+    "i02-tinium/500",
+    "i05-crystalia/650",
+    "i06-lizandri/307",
+    "i10-optical-fiber/170"
+  ]
+}

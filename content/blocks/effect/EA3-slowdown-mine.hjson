@@ -1,0 +1,26 @@
+type: ShockMine
+  name: Slowdown Mine
+  hasShadow: false
+  health: 30
+  damage: 130
+  tileDamage: 22
+  length: 24
+  tendrils: 6
+  category: effect
+  bullet: {
+    type: ExplosionBulletType
+    splashDamage: 75
+    splashDamageRadius: 14
+    killShooter: true
+    status: slow
+    statusDuration: 340
+  }
+  requirements: [
+    i02-tinium/40
+    i03-elastic-fiber/25
+  ]
+researchCostMultiplier: 0.5
+category: effect
+research: EA0-core-town
+buildCostMultiplier: 1.15
+shownPlanets: [Fenadi]

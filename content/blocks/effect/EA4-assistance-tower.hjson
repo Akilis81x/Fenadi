@@ -1,0 +1,19 @@
+type: BuildTurret
+name: Assistance Tower
+  requirements: [
+    i01-basic-mass/290
+    i02-tinium/260
+    i03-elastic-fiber/170
+    i05-crystalia/230
+  ]
+  category: effect
+  size: 3
+  range: 270
+  buildSpeed: 1.5
+  consumes: {
+    power: 6
+    liquid: l01-yavama/0.4
+}
+research: EA1-small-regenerator
+buildCostMultiplier: 1.15
+shownPlanets: [Fenadi]
