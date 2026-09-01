@@ -1,0 +1,99 @@
+{
+  "type": "mech",
+  "name": "Supervisor",
+  "speed": 0.6,
+  "flying": false,
+  "health": 6840,
+  "armor": 11,
+  "hitSize": 22,
+  "itemCapacity": 275,
+  "buildSpeed": 2.1,
+  "mineSpeed": 6,
+  "mineTier": 4,
+  "mineWalls": true,
+  "mineHardnessScaling": false,
+  "mineFloor": true,
+  "canBoost": true,
+  "isEnemy": true,
+  "boostMultiplier": 8,
+  "canAttack": true,
+  "engineOffset": 1,
+  "engineSize": 1,
+  "engineColor": "84f491",
+  "engineColorInner": "62ae7f",
+  "controller": ["RepairAI", "DefenderAI"],
+  "commands": ["move", "mine", "repair", "rebuild", "assist"],
+  "mineItems": ["i01-basic-mass", "i02-tinium", "i05-crystalia", "i08-igneous-crystalia", "i09-lagavo"],
+  "research": "UF1-collector",
+  "abilities": [
+    {
+      "type": "RepairFieldAbility", 
+      "range": 180, 
+      "amount": 50, 
+      "reload": 60, 
+      "activeEffect": {
+        "type": "WaveEffect", 
+        "sizeFrom": 0, 
+        "sizeTo": 90, 
+        "colorFrom": "84f491", 
+        "colorTo": "62ae7f"
+      }
+    },
+    {
+      "type": "StatusFieldAbility", 
+      "range": 330, 
+      "reload": 180, 
+      "activeEffect": {
+        "type": "WaveEffect", 
+        "sizeFrom": 0, 
+        "sizeTo": 110, 
+        "colorFrom": "ed9436", 
+        "colorTo": "eb7e3c"
+      },
+      "duration": 390,
+      "effect": "fenadis-good-job"
+    }
+  ],
+  "weapons": [
+    {
+      "name": "UG1-supervisor-weapon",
+      "shootSound": "laser",
+      "x": 2,
+      "y": -1,
+      "top": true,
+      "under": true,
+      "layerOffset": -1,
+      "shootX": 8,
+      "shootY": 7,
+      "reload": 30,
+      "rotate": false,
+      "ejectEffect": "casing1",
+      "shootSound": "missile",
+      "shoot": {
+        "shots": 3,
+        "shotDelay": 9
+      },
+      "bullet": {
+        "type": "MissileBulletType",
+        "speed": 3.7,
+        "damage": 48,
+        "width": 8,
+        "height": 8,
+        "shrinkY": 0,
+        "drag": -0.01,
+        "splashDamageRadius": 30,
+        "splashDamage": 30,
+        "lifetime": 60,
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
+        "trailColor": "5eea42",
+        "frontColor": "2fae16",
+        "backColor": "258b10"
+        "homingPower": 2.8,
+        "homingRange": 85,
+        "collidesTeam": true,
+        "healAmount": 9
+      }
+}
+]
+}

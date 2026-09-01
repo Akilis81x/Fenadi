@@ -1,0 +1,6 @@
+name: Gold
+hardness: 2
+cost: 5
+color: b69100
+research: i11-impure-gold
+hiddenOnPlanets: [serpulo, erekir]

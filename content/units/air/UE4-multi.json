@@ -1,0 +1,40 @@
+{
+  "type": "flying",
+  "flying": true,
+  "name": "Multi",
+  "speed": 3.8,
+  "accel": 0.090,
+  "drag": 0.090,
+  "health": 1370,
+  "armor": 8,
+  "circleTarget": true,
+  "engineOffset": 5.75,
+  "engineColor": "d23333",
+  "targetFlags": ["drill"],
+  "hitSize": 16,
+  "research": "UD4-sum",
+  "weapons": [
+    {
+      "y": 0,
+      "x": 0,
+      "shootX": 6,
+      "shootY": 6,
+      "reload": 8,
+      "ejectEffect": "casing1",
+      "shootSound": "pew",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 3.5,
+        "damage": 85,
+        "width": 17,
+        "height": 9,
+        "lifetime": 85,
+        "buildingDamageMultiplier": 1.2
+        "shootEffect": "shootSmall",
+        "smokeEffect": "shootSmallSmoke",
+        "frontColor": "e17f7f",
+        "backColor": "961f1f"
+      }
+    }
+  ]
+}

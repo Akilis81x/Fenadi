@@ -1,0 +1,14 @@
+"name": "Basic Operations Center",
+"difficulty": 3,
+"planet": "Fenadi",
+"sector": 48,
+"alwaysUnlocked": true,
+"research": {
+  "parent": "s07-chemical-synthesis-plant",
+  "objectives": [
+    {
+      "type": "SectorComplete",
+      "preset": "s07-chemical-synthesis-plant"
+    }
+  ]
+}

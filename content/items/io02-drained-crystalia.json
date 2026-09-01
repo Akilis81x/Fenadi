@@ -1,0 +1,7 @@
+name: Drained Crystalia
+hardness: 2
+explosiveness: 0
+radioactivity: 0.01
+color: f3b5f4
+research: i05-crystalia
+hiddenOnPlanets: [serpulo, erekir]

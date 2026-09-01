@@ -1,0 +1,23 @@
+type: ParticleWeather
+name: Igneous Waves
+color: bf7228
+noiseColor: f9d9b4
+drawNoise: true
+particleRegion: particle
+useWindVector: true
+status: fenadis-ignition
+  attrs: {
+    light: -0.8
+    heat: 1.2
+    spores: -0.5
+  }
+sizeMax: 170
+sizeMin: 90
+minAlpha: 0.4
+maxAlpha: 0.7
+density: 2900
+baseSpeed: 0.4
+opacityMultiplier: 0.25
+sound: flame
+soundVol: 0.8
+duration: 4200

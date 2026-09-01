@@ -1,0 +1,8 @@
+name: Complex Mass
+explosiveness: 0.5
+radioactivity: 0.25
+cost: 2.2
+healthScaling: 5.2
+color: 859b99
+research: i07-advanced-mass
+hiddenOnPlanets: [serpulo, erekir]

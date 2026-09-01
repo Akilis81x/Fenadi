@@ -1,0 +1,80 @@
+{
+  "type": "legs",
+  "name": "Hunter",
+  "speed": 0.9,
+  "drag": 0.4,
+  "hitSize": 32,
+  "rotateSpeed": 1.5,
+  "health": 4430,
+  "legCount": 6,
+  "legLength": 18,
+  "legForwardScl": 1.3,
+  "legMoveSpace": 1.5,
+  "legBaseOffset": 1.3,
+  "hovering": true,
+  "armor": 14,
+  "shadowElevation": 0.6,
+  "groundLayer": 85,
+    "weapons": [
+   {
+      "name": "UF3-hunter-weapon",
+      "reload": 280,
+      "inaccuracy": 3,
+      "cooldownTime": 90,
+      "top": true,
+      "under": true,
+      "layerOffset": -1,
+      "x": 4,
+      "y": 1,
+      "mirror": true,
+      "alternate": true,
+      "rotate": false,
+      "shootX": 16,
+      "shootY": 14,
+      "shake": 6,
+      "shoot": {
+        "shots": 3,
+        "shotDelay": 8,
+        "firstShotDelay": 120
+      },
+      "chargeSound": "lasercharge",
+      "shootSound": "laser",
+      "ejectEffect": "none",
+      "recoil": 8,
+      "bullet": {
+        "chargeEffect": {
+          "type": "MultiEffect",
+          "followParent": true,
+          "lifetime": 45,
+          "effects": [
+            {
+              "type": "WaveEffect",
+              "sizeFrom": 0,
+              "sizeTo": 20,
+              "interp": "pow2Out"
+            },
+            {
+              "type": "WaveEffect",
+              "sizeFrom": 22,
+              "sizeTo": 2,
+              "interp": "pow2Out"
+            }
+          ]
+        },
+        "type": "LaserBulletType",
+        "hitShake": 4,
+        "length": 220,
+        "damage": 145,
+        "lifetime": 25,
+        "largeHit": true,
+        "status": "fenadis-ignition",
+        "statusDuration": 180,
+        "sideLength": 20,
+        "sideWidth": 14,
+        "sideAngle": 20,
+        "colors": ["5d3467", "844892", "bd6bd0"]
+      } 
+    },
+  ],
+  "research": "UE3-looter"
+}

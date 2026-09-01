@@ -1,0 +1,20 @@
+{
+  "type": "crawl",
+  "name": "Clone Ryjux Mini",
+  "health": 2000,
+  "drawCell": false,
+  "outlines": false,
+  "hitSize": 20,
+  "squareShape": false,
+  "segments": 3,
+  "omniMovement": false,
+  "rotateSpeed": 1.78,
+  "drawBody": false,
+  "crushDamage": 0.8,
+  "targetAir": false,
+  "segmentScl": 4,
+  "segmentPhase": 5,
+  "speed": 1,
+  "weapons": [ ],
+  "abilities": [ ]
+} 

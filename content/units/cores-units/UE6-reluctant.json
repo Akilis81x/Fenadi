@@ -1,0 +1,55 @@
+{
+  "name": "Reluctant",
+  "shownPlanets": ["Fenadi"]
+  "type": "mech",
+  "speed": 0.43,
+  "hitSize": 13,
+  "rotateSpeed": 3,
+  "targetAir": false,
+  "health": 500,
+  "armor": 30,
+  "buildSpeed": 2.6,
+  "mineSpeed": 8,
+  "mineTier": 3,
+  "mineWalls": true,
+  "mineHardnessScaling": false,
+  "mineFloor": true,
+  "canBoost": true,
+  "coreUnitDock": true,
+  "boostMultiplier": 5,
+  "mechFrontSway": 0.55,
+  "immunities": ["fenadis-ignition", "fenadis-suffocation"],
+  "weapons": [
+    {
+      "name": "UE6-reluctant-weapon",
+      "top": false,
+      "y": -1,
+      "x": 2,
+      "shootX": 7,
+      "shootY": 7,
+      "reload": 40,
+      "recoil": 3,
+      "shake": 2,
+      "ejectEffect": "casing2",
+      "shootSound": "artillery",
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "hitEffect": "blastExplosion",
+        "knockback": 6,
+        "lifetime": 140,
+        "sprite": "shell",
+        "speed": 2.2,
+        "damage": 48,
+        "width": 14,
+        "height": 14,
+        "collides": true,
+        "collidesTiles": true,
+        "splashDamageRadius": 62,
+        "splashDamage": 85,
+        "buildingDamageMultiplier": 0.01,
+        "backColor": "5461c5",
+        "frontColor": "6d7dff"
+      }
+    } 
+  ]
+}

@@ -1,0 +1,5 @@
+name: Advanced Mass
+cost: 1.5
+color: 7d9a65
+research: i01-basic-mass
+hiddenOnPlanets: [serpulo, erekir]

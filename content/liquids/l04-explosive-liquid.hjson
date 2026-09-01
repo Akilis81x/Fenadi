@@ -1,0 +1,12 @@
+{
+  "name": "Explosive Liquid",
+  "heatCapacity": 0.9,
+  "explosiveness": 4.5,
+  "temperature": 0.5,
+  "color": "d21a0f",
+  "viscosity": 0.01,
+  "flammability": 4,
+  "research": "l02-soro",
+  "coolant": true,
+  "effect": "fenadis-agony"
+}
