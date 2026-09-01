@@ -1,0 +1,9 @@
+{
+  "type": "OreBlock",
+  "localizedName": "Ore Igneous Crystalia",
+  "itemDrop": "i08-igneous-crystalia",
+  "hasColor": true,
+  "playerUnmineable": true,
+  "mapColor": "7a89bc",
+  "variants": 3
+}

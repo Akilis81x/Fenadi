@@ -1,0 +1,10 @@
+{
+  "type": "Floor",
+ "attributes": {
+    "spores": 0.04
+}
+"emitLight": true,
+"lightRadius": 19,
+"lightColor": "A9D8FFFF",
+  "variants": 5
+}

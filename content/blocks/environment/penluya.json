@@ -1,0 +1,12 @@
+{
+  "type": "Floor",
+  "speedMultiplier": 0.2,
+  "variants": 0,
+  "statusDuration": 60,
+  "isLiquid": "true",
+  "albedo": 0.5,
+  "status": "slow",
+  "cacheLayer": "arkycite",
+  "liquidDrop": "l06-waste-liquid"
+  "liquidMultiplier": 0.5
+}

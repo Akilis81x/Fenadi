@@ -1,0 +1,5 @@
+name: Igneous Wall
+type: StaticWall
+playerUnmineable: true
+itemDrop: i08-igneous-crystalia
+variants: 3

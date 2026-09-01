@@ -1,0 +1,9 @@
+{
+  "type": "OreBlock",
+  "localizedName": "Ore Drained Crystalia",
+  "itemDrop": "io02-drained-crystalia",
+  "playerUnmineable": true,
+  "hasColor": true,
+  "mapColor": "6d596c",
+  "variants": 3
+}
