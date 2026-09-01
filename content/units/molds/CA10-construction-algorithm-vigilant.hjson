@@ -1,0 +1,12 @@
+type: Wall
+name: Construction Algorithm Vigilant
+size: 3
+customShadow: true
+placeablePlayer: false
+requirements: [
+  i03-elastic-fiber/140
+  i05-crystalia/60
+  i06-lizandri/170
+]
+research: CA05-construction-algorithm-sentinel
+researchCostMultiplier: 0.25

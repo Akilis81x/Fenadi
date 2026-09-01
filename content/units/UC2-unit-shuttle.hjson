@@ -1,0 +1,20 @@
+type: PayloadMassDriver
+name: Unit Shuttle
+consumes: {
+  power: 8
+}
+category: units
+research: UA8-unit-launcher
+requirements: [
+  i13-complex-mass/110
+  i06-lizandri/380
+  i09-lagavo/310
+  i10-optical-fiber/185
+  i15-processor-f08/30
+]
+reload: 160
+chargeTime: 110
+range: 780
+maxPayloadSize: 8
+size: 5
+researchCostMultiplier: 0.25

@@ -1,0 +1,12 @@
+type: Wall
+name: Construction Algorithm Hunter
+size: 3
+customShadow: true
+placeablePlayer: false
+requirements: [
+  i03-elastic-fiber/310
+  i06-lizandri/75
+  i08-igneous-crystalia/120
+]
+research: CA08-construction-algorithm-looter
+researchCostMultiplier: 0.25

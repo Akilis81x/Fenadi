@@ -1,0 +1,12 @@
+type: Wall
+name: Construction Algorithm Sum
+size: 2
+customShadow: true
+placeablePlayer: false
+requirements: [
+  i02-tinium/25
+  i03-elastic-fiber/60
+  i06-lizandri/25
+]
+research: CA0-construction-algorithm-advocate
+researchCostMultiplier: 0.25

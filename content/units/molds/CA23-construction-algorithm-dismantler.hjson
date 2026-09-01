@@ -1,0 +1,13 @@
+type: Wall
+name: Construction Algorithm Dismantler
+size: 4
+customShadow: true
+placeablePlayer: false
+requirements: [
+i06-lizandri/270
+i08-igneous-crystalia/700
+i09-lagavo/450
+i10-optical-fiber/480
+]
+research: CA18-construction-algorithm-muffler
+researchCostMultiplier: 0.25

@@ -1,0 +1,18 @@
+type: PayloadMassDriver
+name: Unit Launcher
+consumes: {
+  power: 4
+}
+category: units
+research: UA1-cargo-conveyor-belt
+requirements: [
+  i01-basic-mass/810
+  i03-elastic-fiber/380
+  i06-lizandri/510
+]
+reload: 110
+chargeTime: 80
+range: 280
+maxPayloadSize: 3.5
+size: 3
+researchCostMultiplier: 0.25
