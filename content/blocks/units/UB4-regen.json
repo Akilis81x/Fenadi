@@ -1,0 +1,19 @@
+{
+  "type": "RepairTower",
+  "size": 2,
+  "localizedName": "Regen",
+  "shownPlanets": ["Fenadi"]
+  "category": "units",
+  "research": "UA0-basic-assembly-barracks",
+  "requirements": [
+    "i01-basic-mass/510",
+    "i02-tinium/110",
+    "i03-elastic-fiber/30"
+  ],
+  "range": 170,
+  "healAmount": 1.5,
+  "consumes": {
+    "power": 4,
+    "liquid": "l01-yavama/0.2"
+   }
+ }

@@ -1,0 +1,36 @@
+type: Constructor
+name: Basic Printer
+size: 3
+category: units
+requirements: [
+  i02-tinium/110
+  i03-elastic-fiber/150
+  i05-crystalia/90
+] 
+hasPower: true
+consumes: {
+  power: 0.5
+}
+buildSpeed: 1
+filter: [
+  CA0-construction-algorithm-advocate,
+  CA01-construction-algorithm-employee,
+  CA02-construction-algorithm-lure,
+  CA03-construction-algorithm-climber,
+  CA04-construction-algorithm-sum, 
+  CA05-construction-algorithm-sentinel,
+  CA06-construction-algorithm-assistant,
+  CA07-construction-algorithm-sturdy,
+  CA08-construction-algorithm-looter,
+  CA09-construction-algorithm-multi,
+  WA0-basic-wall,
+  WA1-large-basic-wall,
+  WA2-tinium-wall,
+  WA3-large-tinium-wall,
+  WA4-lizandri-wall,
+  WA5-large-lizandri-wall
+]
+research: UA0-basic-assembly-barracks
+squareSprite: false
+researchCostMultiplier: 0.3
+maxBlockSize: 2.5

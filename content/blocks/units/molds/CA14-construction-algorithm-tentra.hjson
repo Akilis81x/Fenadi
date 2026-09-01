@@ -1,0 +1,12 @@
+type: Wall
+name: Construction Algorithm Tentra
+size: 3
+customShadow: true
+placeablePlayer: false
+requirements: [
+  i03-elastic-fiber/280
+  i06-lizandri/35
+  i08-igneous-crystalia/120
+]
+research: CA09-construction-algorithm-multi
+researchCostMultiplier: 0.25
