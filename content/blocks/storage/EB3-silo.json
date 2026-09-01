@@ -1,0 +1,17 @@
+type: StorageBlock
+size: 4
+health: 1890
+name: Silo
+hasItems: true
+coreMerge: true
+itemCapacity: 3000
+category: effect
+requirements: [
+  i03-elastic-fiber/300
+  i06-lizandri/90
+  i09-lagavo/170
+]
+squareSprite: false
+researchCostMultiplier: 0.5
+research: EA2-warehouse
+buildCostMultiplier: 1.15

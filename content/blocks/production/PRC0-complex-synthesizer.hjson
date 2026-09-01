@@ -1,0 +1,53 @@
+{
+  "researchCostMultiplier": 0.5,
+  "type": "GenericCrafter",
+  "outputLiquids": [
+    "l06-waste-liquid/0.5",
+]
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "66B1FF90"
+   },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "size": 5,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "itemCapacity": 40,
+  "craftTime": 195,
+  "craftEffect": "none",
+  "updateEffect": "none",
+  "consumes": {
+    "power": 30,
+    "liquids": [
+      "l02-soro/0.5",
+      "l03-baruga/0.2"
+    ],
+    "items": [
+      "i07-advanced-mass/12",
+      "i08-igneous-crystalia/4",
+      "i09-lagavo/8"
+    ]
+  },
+  "requirements": [
+    "i07-advanced-mass/1200",
+    "i06-lizandri/600",
+    "i09-lagavo/300",
+    "i10-optical-fiber/500"
+  ],
+  "envRequired": 0,
+  "category": "crafting",
+  "research": "PRB0-advanced-synthesizer",
+  "shownPlanets": ["Fenadi"]
+  "outputItems": [
+    "i13-complex-mass/12",
+]
+}

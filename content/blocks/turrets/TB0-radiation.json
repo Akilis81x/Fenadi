@@ -1,0 +1,86 @@
+shownPlanets: [Fenadi]
+type: ItemTurret
+Name: Radiation
+size: 3
+health: 1000
+range: 230
+targetGround: true
+targetAir: false
+squareSprite: true
+shots: 1
+recoil: 0
+rotate: false
+rotateSpeed: 0
+shake: 2
+shootCone: 360
+shootSound: explosionbig
+inaccuracy: 0
+cooldown: 0.07
+reload: 100
+shootY: 0
+maxAmmo: 30
+ammoPerShot: 8
+category: turret
+research: TA3-voltage
+requirements: [
+  i07-advanced-mass/250
+  i02-tinium/835
+  i06-lizandri/525
+]
+consumes: {
+  liquid: l03-baruga/0.2
+}
+coolant: {
+  type: ConsumeCoolant
+  allowLiquid: true
+  amount: 0.4
+}
+ammoTypes: {
+  i05-crystalia: {
+    damage: 350
+    splashDamage: 100
+    splashDamageRadius: 100
+    rangeChange: -95
+    status: fenadis-corruption
+    statusDuration: 60
+    speed: 1
+    lifetime: 1
+    height: 18
+    collidesAir: false
+    width: 20
+    shootEffect: generatespark
+    smokeEffect: redgeneratespark
+    despawnEffect: spawnShockwave
+  }
+  i09-lagavo: {
+    damage: 650
+    splashDamage: 400
+    splashDamageRadius: 270
+    status: fenadis-corruption
+    statusDuration: 560
+    speed: 1
+    lifetime: 1
+    height: 68
+    collidesAir: false
+    width: 80
+    shootEffect: generatespark
+    smokeEffect: redgeneratespark
+    despawnEffect: spawnShockwave
+ }
+  i14-otucium: {
+    damage: 1150
+    splashDamage: 920
+    splashDamageRadius: 330
+    status: fenadis-cyber-strike
+    statusDuration: 60
+    rangeChange: +115
+    speed: 4
+    lifetime: 1
+    height: 168
+    collidesAir: false
+    width: 180
+    shootEffect: generatespark
+    smokeEffect: redgeneratespark
+    despawnEffect: spawnShockwave
+}
+}

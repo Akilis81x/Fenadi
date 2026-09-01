@@ -1,0 +1,47 @@
+shownPlanets: [Fenadi]
+name: Plasm
+type: LaserTurret
+size: 3
+liquidCapacity: 200
+shootDuration: 240
+research: TB1-optical
+health: 2150
+range: 320
+squareSprite: false
+consumes: {
+  power: 28
+  coolant: {
+    type: ConsumeCoolant
+    amount: 0.4
+    liquid: l07-radiant-liquid
+  }
+}
+coolantMultiplier: 8
+rotateSpeed: 2
+reload: 30
+recoil: 8
+shootSound: laserbig
+shoot: {
+  type: ShootSpread
+  shots: 1
+  spread: 0
+}
+shootType: {
+  type: ContinuousLaserBulletType
+  damage: 175
+  lifetime: 20
+  fadeTime: 3
+  length: 320
+  width: 10
+  buildingDamageMultiplier: 0.1
+  backColor: 7575c8
+  frontColor: a4b8fa
+}
+category: turret
+requirements: [
+  i07-advanced-mass/600
+  i06-lizandri/800
+  i08-igneous-crystalia/460
+  i09-lagavo/500
+  i10-optical-fiber/120
+]

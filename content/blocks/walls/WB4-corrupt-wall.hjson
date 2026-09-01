@@ -1,0 +1,55 @@
+{
+  "name": "Corrupt Wall",
+  "type": "PowerTurret",
+  "flashHit": true,
+  "hasItems": false,
+  "hasPower": true,
+  "conductivePower": true,
+  "consumes": {
+    "power": 0.5
+  },
+  "hasLiquids": false,
+  "canOverdrive": true,
+  "size": 1,
+  "recoil": 0,
+  "rotate": false,
+  "shootY": 0,
+  "rotateSpeed": 0,
+  "shootCone": 360,
+  "shoot": {
+    "type": "ShootSpread",
+    "shots": 12,
+    "spread": 50
+  },
+  "range": 130,
+  "recoil": 0,
+  "health": 340,
+  "armor": 14,
+  "targetAir": true,
+  "targetGround": true,
+  "reload": 60,
+  "shootType": {
+    "instantDisappear": true,
+    "damage": 25,
+    "splashDamage": 1,
+    "splashDamageRadius": 110,
+    "status": "fenadis-corruption",
+    "statusDuration": 340
+    },
+"requirements": [
+  {
+    "item": "i05-crystalia",
+    "amount": 10,
+}
+{
+     "item": "i09-lagavo",
+     "amount": 15
+  }
+  ],
+"category": "defense",
+"research": {
+ "parent": "WB2-igneous-wall",
+  },
+  "shownPlanets": ["Fenadi"],
+  "envDisabled": 16
+}

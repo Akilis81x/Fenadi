@@ -1,0 +1,82 @@
+{
+  "type": "GenericCrafter",
+  "name": "Logical Catalyst",
+  "outputItem": {
+    "item": "i15-processor-f08",
+    "amount": 13
+  },
+  "health": 6740,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault" 
+      }
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "f1a397"
+      }
+      ]
+  },
+  "itemCapacity": 70,
+  "size": 7,
+  "craftTime": 800,
+  "hasPower": true,
+  "hasLiquids": false,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 50,
+    "items": {
+      "items": [
+        {
+          "item": "i02-tinium",
+          "amount": 26
+        },
+        {
+          "item": "i03-elastic-fiber",
+          "amount": 26
+},
+        {
+          "item": "i06-lizandri",
+          "amount": 12
+},
+        {
+          "item": "i10-optical-fiber",
+          "amount": 4
+        },
+        {
+          "item": "i14-otucium",
+          "amount": 1
+        }
+      ]
+    }
+  },
+  "requirements": [
+
+    {
+      "item": "i13-complex-mass",
+      "amount": 1250
+    },
+    {
+      "item": "i02-tinium",
+      "amount": 2200
+    },
+    {
+      "item": "i09-lagavo",
+      "amount": 700
+},
+    {
+      "item": "i10-optical-fiber",
+      "amount": 850
+    },
+    {
+      "item": "i14-otucium",
+      "amount": 80
+    }
+  ],
+  "category": "crafting",
+  "research": "PRC2-otucium-collider",
+  "shownPlanets": ["Fenadi"]
+}

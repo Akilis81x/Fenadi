@@ -1,0 +1,391 @@
+{
+ "shownPlanets": ["Fenadi"],
+ "type": "ItemTurret",
+  "name": "Angfum",
+  "targetAir": true,
+  "targetGround": true,
+  "health": 6800,
+  "size": 4,
+  "reload": 170,
+  "recoil": 4,
+  "ammoUseEffect": "casing3",
+  "inaccuracy": 0,
+  "shootY": 16,
+  "shootCone": 15,
+  "predictTarget": false,
+  "maxAmmo": 20,
+  "rotateSpeed": 20,
+  "range": 280,
+  "category": "turret",
+  "research": "TB5-descend",
+  "buildVisibility": "shown"
+  "requirements": [
+    "i13-complex-mass/370",
+    "i02-tinium/1880",
+    "i09-lagavo/1200",
+    "i14-otucium/380",
+],
+  "shoot": {
+    "shots": 3,
+    "spread": 3,
+    "barrels": 3,
+  },
+  "consumes": {
+   "coolant": {
+    "type": "ConsumeLiquid",
+    "liquid": "l07-radiant-liquid",
+    "amount": 0.6
+  },
+}
+  "coolantMultiplier": 4,
+  "ammoTypes": {
+    "i14-otucium": {
+      "pierce": false,
+      "type": "ArtilleryBulletType",
+      "damage": 420,
+      "splashDamage": 220,
+      "splashDamageRadius": 130,
+      "buildingDamageMultiplier": 0.01,
+      "targetAir": false,
+      "speed": 4,
+      "width": 11,
+      "height": 22,
+      "shrinkX": 9,
+      "status": "fenadis-cyber-strike",
+      "statusDuration": 340,
+      "frontColor": "747994",
+      "backColor": "505363",
+      "shootEffect": "hitMeltdown",
+      "smokeEffect": "hitBulletBig",
+      "trailColor": "747994",
+      "trailMult": 10,
+      "trailSize": 5,
+      "despawnHit": true,
+      "hitEffect": {
+        "type": "multiEffect",
+        "effects": [
+          {
+            "type": "ParticleEffect",
+            "particles": 20,
+            "length": 15,
+            "baseLength": 10,
+            "lifetime": 80,
+            "lightColor": "505363",
+            "interp": "circleOut",
+            "sizeInterp": "pow5In",
+            "cone": 360,
+            "colorFrom": "747994",
+            "colorTo": "505363",
+            "sizeFrom": 10,
+            "sizeTo": 0
+          },
+          {
+            "type": "ParticleEffect",
+            "particles": 15,
+            "length": 25,
+            "baseLength": 10,
+            "lifetime": 100,
+            "lightColor": "505363",
+            "interp": "circleOut",
+            "sizeInterp": "pow5In",
+            "cone": 360,
+            "colorFrom": "747994",
+            "colorTo": "505363",
+            "sizeFrom": 7,
+            "sizeTo": 0
+          },
+          {
+            "type": "WaveEffect",
+            "lifetime": 60,
+            "sizeFrom": 110,
+            "sizeTo": 170,
+            "strokeFrom": 8,
+            "strokeTo": 2,
+            "lightColor": "505363",
+            "colorFrom": "747994",
+            "colorTo": "505363"
+          }
+        ]
+      }
+    },
+"i15-processor-f08": {
+  "type": "PointBulletType",
+  "rangeChange": 80,
+  "buildingDamageMultiplier": 0.01,
+  "damage": 90,
+  "splashDamage": 90,
+  "splashDamageRadius": 120,
+  "status": "fenadis-reverse-control",
+  "statusDuration": 9999,
+  "shootEffect": {
+      "type": "ParticleEffect"
+      "line": true
+      "length": 440
+      "colorTo": "4d766e",
+      "interp": "pow10Out"
+      "lifetime": 30
+      "particles": 40
+      "lenFrom": 20
+      "strokeFrom": 20
+      "sizeInterp": "pow5In"
+        }
+  "hitEffect": {
+    "type": "ExplosionEffect",
+    "waveColor": "4d766e",
+    "waveLife": 30,
+    "waveRad": 40,
+    "waveRadBase": 40,
+    "sparkRad": 50,
+    " smokeRad": 60,
+    "smokes": 4,
+    "sparks": 6,
+    "smokeColor": "68a196",
+    "sparkColor": "84f2dc"
+}
+"trailSpacing": 16,
+"trailLength": 16,
+"trailWidth": 4,
+trailColor: "f9a3c7",
+"shootEffect": "shootTitan",
+"smokeEffect": "smokeCloud"
+"trailEffect": {
+  "type": "particleEffect",
+  "region": "fenadi-great-rail",
+  "colorFrom": "4d766e",
+  "colorTo": "68a196",
+  "sizeFrom": 16,
+  "sizeTo": 0,
+  "particles": 1,
+  "length": 0,
+  "lifetime": 20
+  }
+}
+    "i16-complex-fiber": {
+      "type": "PointBulletType",
+      "damage": 1800,
+      "rangeChange": 420,
+      "reloadMultiplier": 0.05,
+      "shootEffect": "instShoot",
+      "status": "shocked",
+      "statusDuration": 200,
+      "lightning": 28,
+      "lightningLength": 7,
+      "lightningDamage": 50,
+      "hitEffect": {
+        "type": "multiEffect",
+        "effects": [
+          {
+            "type": "ParticleEffect",
+            "lightOpacity": 0,
+            "particles": 10,
+            "length": 30,
+            "lifetime": 50,
+            "interp": "circleOut",
+            "sizeInterp": "pow5In",
+            "sizeFrom": 5,
+            "sizeTo": 0,
+            "colorFrom": "710f72",
+            "colorTo": "a91eab"
+          },
+          {
+            "type": "ParticleEffect",
+            "lightOpacity": 0,
+            "particles": 10,
+            "length": 20,
+            "lifetime": 40,
+            "interp": "circleOut",
+            "sizeInterp": "pow5In",
+            "sizeFrom": 3,
+            "sizeTo": 0,
+            "colorFrom": "710f72",
+            "colorTo": "a91eab"
+          },
+          {
+            "type": "ParticleEffect",
+            "lightOpacity": 0,
+            "particles": 10,
+            "length": 10,
+            "lifetime": 30,
+            "interp": "circleOut",
+            "sizeInterp": "pow5In",
+            "sizeFrom": 2.5,
+            "sizeTo": 0,
+            "colorFrom": "a91eab",
+            "colorTo": "710f72"
+          },
+          {
+            "type": "ParticleEffect",
+            "line": true,
+            "particles": 15,
+            "offset": 20,
+            "lifetime": 30,
+            "length": 10,
+            "baseLength": -15,
+            "cone": -360,
+            "lenFrom": 10,
+            "lenTo": 10,
+            "colorFrom": "a91eab",
+            "colorTo": "710f72"
+          },
+          {
+            "type": "WaveEffect",
+            "lifetime": 25,
+            "sizeFrom": 0,
+            "sizeTo": 35,
+            "strokeFrom": 4,
+            "strokeTo": 0,
+            "lightColor": "bf88bf",
+            "colorFrom": "a91eab",
+            "colorTo": "710f72"
+          },
+          {
+            "type": "ParticleEffect",
+            "particles": 1,
+            "sizeFrom": 15,
+            "sizeTo": 0,
+            "length": 0,
+            "interp": "swingIn",
+            "lifetime": 25,
+            "region": "fenadi-great-rail",
+            "lightColor": "bf88bf",
+            "colorFrom": "a91eab",
+            "colorTo": "710f72"
+          },
+          {
+            "type": "ParticleEffect",
+            "particles": 1,
+            "sizeFrom": 12,
+            "sizeTo": 0,
+            "length": 0,
+            "interp": "swingIn",
+            "lifetime": 25,
+            "region": "fenadi-great-rail",
+            "lightColor": "bf88bf",
+            "colorFrom": "a91eab",
+            "colorTo": "710f72"
+          }
+        ]
+      },
+      "speed": 1000,
+      "hitShake": 7,
+      "trailSpacing": 30,
+      "colorFrom": "bf88bf",
+      "colorTo": "a91eab",
+      "hitColor": "710f72",
+      "trailEffect": {
+        "type": "ParticleEffect",
+        "particles": 1,
+        "length": 0,
+        "lifetime": 35,
+        "sizeFrom": 25,
+        "region": "fenadi-great-rail",
+        "colorFrom": "a91eab",
+        "colorTo": "710f72"
+      },
+      "despawnEffect": "none",
+      "splashDamageRadius": 80,
+      "buildingDamageMultiplier": 0.01
+    }, 
+  "i17-processor-p41": {
+  "rangeChange": 160,
+  "type": "RailBulletType",
+  "damage": 350,
+  "buildingDamageMultiplier": 0.01,
+  "shootEffect": {
+    "type": "MultiEffect",
+    "effects": [
+    "shootTitan",
+    "shootBig",
+    "smokeCloud"{
+    "type": "ParticleEffect",
+    "colorTo": "294537",
+    "line": true,
+    "particles": 12,
+    "length": 10,
+    "cone": 10,
+    "strokeFrom": 2,
+    "strokeTo": 0,
+    "lenFrom": 5,
+    "lenTo": 0
+    }
+    ]
+}
+  "status": "fenadis-reverse-control",
+  "length": 480,
+  "pointEffectSpace": 20,
+  "ammoMultiplier": 5,
+  "reloadMultiplier": 0.8,
+  "pierce": true,
+  "pierceEffect": {
+    "particles": 10,
+    "length": 0,
+    "lifetime": 25,
+    "sizeFrom": 20,
+    "sizeTo": 8,
+    "region": "fenadi-super-rail",
+    "colorTo": "294537"
+}
+"pointEffect": {
+  "type": "ParticleEffect",
+  "particles": 1,
+  "length": 0,
+  "lifetime": 25,
+  "sizeFrom": 20,
+  "sizeTo": 0,
+  "region": "fenadi-super-rail",
+  "colorFrom": "294537",
+  "colorTo": "246042"
+}
+"lineEffect": {
+  "type": "ParticleEffect",
+  "particles": 1,
+  "length": 0,
+  "lifetime": 25,
+  "sizeFrom": 20,
+  "sizeTo": 0,
+  "region": "fenadi-super-rail",
+  "colorFrom": "246042",
+  "colorTo": "294537"
+}
+"hitEffect": {
+  "type": "MultiEffect",
+  "effects": [
+    {
+    "type": "WaveEffect",
+    "lifetime": 25,
+    "sides": 4,
+    "rotation": 0,
+    "sizeFrom": 0,
+    "sizeTo": 40,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "246042",
+    "colorTo": "294537"
+}
+    {
+    "type": "WaveEffect",
+    "lifetime": 25,
+    "sides": 4,
+    "rotation": 45,
+    "sizeFrom": 0,
+    "sizeTo": 40,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "294537",
+    "colorTo": "246042"
+}
+    {
+    "type": "WaveEffect",
+    "lifetime": 25,
+    "sizeFrom": 0,
+    "sizeTo": 64,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "246042",
+    "colorTo": "294537"
+}
+]
+}
+}
+}
+}
