@@ -1,0 +1,21 @@
+type: Wall
+name: Large Basic Wall
+size: 2
+health: 1250
+armor: 2
+squareSprite: false
+requirements: [
+  i01-basic-mass/40
+]
+  research: {
+  parent: WA0-basic-wall
+  objectives: [
+    {
+     type: OnSector
+     preset: s01-isolated-valley
+    }
+  ]
+}
+category: defense
+researchCostMultiplier: 0.05
+shownPlanets: [Fenadi]

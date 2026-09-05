@@ -1,0 +1,55 @@
+{
+  "name": "Large Igneous Wall",
+  "type": "PowerTurret",
+  "flashHit": true,
+  "hasItems": false,
+  "hasPower": true,
+  "conductivePower": true,
+  "consumes": {
+    "power": 0.5
+  },
+  "hasLiquids": false,
+  "canOverdrive": true,
+  "size": 2,
+  "recoil": 0,
+  "rotate": false,
+  "shootY": 0,
+  "rotateSpeed": 0,
+  "shootCone": 360,
+  "shoot": {
+    "type": "ShootSpread",
+    "shots": 12,
+    "spread": 50
+  },
+  "range": 140,
+  "recoil": 0,
+  "health": 2780,
+  "armor": 8,
+  "targetAir": true,
+  "targetGround": true,
+  "reload": 60,
+  "shootType": {
+    "instantDisappear": true,
+    "damage": 10,
+    "splashDamage": 1,
+    "splashDamageRadius": 120,
+    "status": "fenadis-ignition",
+    "statusDuration": 190
+    },
+"requirements": [
+  {
+    "item": "i06-lizandri",
+    "amount": 40,
+}
+{
+     "item": "i08-igneous-crystalia",
+     "amount": 60
+  }
+  ],
+"category": "defense",
+"research": {
+ "parent": "WB2-igneous-wall",
+  },
+  "shownPlanets": ["Fenadi"],
+  "envDisabled": 16
+}

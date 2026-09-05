@@ -1,0 +1,26 @@
+{
+  "name": "Optical Wall",
+  "type": "Wall",
+  "health": 500,
+  "armor": 4,
+  "conductivePower": true,
+  "lightningChance": 0.60,
+  "lightningDamage": 40,
+  "lightningLength": 25,
+  "size": 1,
+  "requirements": [
+    {
+      "item": "i03-elastic-fiber",
+      "amount": 15,
+}
+{
+      "item": "i10-optical-fiber",
+      "amount": 10
+    }
+  ],
+  "category": "defense",
+  "research": {
+   "parent": "WA5-large-lizandri-wall"
+  },
+  "shownPlanets": ["Fenadi"],
+}
