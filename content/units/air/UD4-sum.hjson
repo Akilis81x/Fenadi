@@ -20,7 +20,6 @@
       "x": 4,
       "reload": 20,
       "ejectEffect": "casing1",
-      "shootSound": "pew",
       "bullet": {
         "type": "BasicBulletType",
         "speed": 2.5,
@@ -28,7 +27,7 @@
         "width": 17,
         "height": 9,
         "lifetime": 55,
-        "shootEffect": "shootStell",
+        "shootSound": "shootStell",
         "smokeEffect": "shootSmallSmoke",
         "frontColor": "d23333",
         "backColor": "8e4949"
