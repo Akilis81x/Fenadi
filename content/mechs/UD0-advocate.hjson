@@ -1,0 +1,57 @@
+{
+  "name": "Advocate",
+  "template": "SerpuloUnitType",
+  "type": "mech",
+  "outlineColor": "2e2f34",
+  "flying": false,
+  "speed": 1.2,
+  "hitSize": 14,
+  "researchCostMultiplier": 0.8,
+  "health": 520,
+  "armor": 3,
+  "research": "UA0-basic-assembly-barracks",
+  "requiresUnlock": false,
+"abilities": [
+  {
+    "type": "ArmorPlateAbility",
+    "healthMultiplier": 0.1
+  }
+]
+  "weapons": [
+    {
+      "name": "UD0-advocate-weapon",
+      "top": true,
+      "under": true,
+      "layerOffset": -2,
+      "y": -1,
+      "x": 0,
+      "shootX": 6,
+      "shootY": 6,
+      "reload": 10,
+      "mirror": true,
+      "alternate": true,
+      "shootSound": "shootSalvo",
+      "bullet": {
+        "type": "BasicBulletType",
+        "sprite": "circle",
+        "damage": 25,
+        "pierceBuilding": false,
+        "pierce": false,
+        "trailColor": "f7c749",
+        "trailLength": 12,
+        "trailWidth": 2,
+        "status": "fenadis-friction",
+        "statusDuration": 2,
+        "speed": 3,
+        "shrinkY": 2,
+        "shrinkX": 2,
+        "width": 3,
+        "height": 3,
+        "lifetime": 42,
+        "lightColor": "f1ffa9",
+        "colorFrom": "f1ffa9",
+        "colorTo": "f7c749"
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "name": "Vigilant",
+  "type": "mech",
+  "outlineColor": "2e2f34",
+  "flying": false,
+  "speed": 0.7,
+  "hitSize": 22,
+  "researchCostMultiplier": 1,
+  "health": 5760,
+  "armor": 9,
+  "research": "UE0-sentinel",
+"abilities": [
+  {
+    "type": "ArmorPlateAbility",
+    "healthMultiplier": 0.7
+  }
+]
+  "weapons": [
+    {
+      "name": "UF0-vigilant-weapon",
+      "top": true,
+      "layerOffset": -2,
+      "under": true,
+      "y": 6,
+      "reload": 42,
+      "x": 12,
+      "shootX": 3,
+      "shootY": 5,
+      "mirror": true,
+      "inaccuracy": 5,
+      "shoot": {
+        "shots": 12
+      },
+      "mirror": true,
+      "shootCone": 90,
+      "rotate": false,
+      "shootSound": "shootFlame",
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 6,
+        "damage": 45,
+        "despawnEffect": "none",
+        "lifetime": 28,
+        "height": 0.5,
+        "width": 0.5,
+        "status": "fenadis-friction",
+        "statusDuration": 10,
+        "makeFire": false,
+        "incendSpread": 0,
+        "incendChance": 0,
+        "incendAmount": 0,
+        "pierceBuilding": true,
+        "pierceCap": 2,
+        "collidesTeam": true,
+        "smokeEffect": {
+          "type": "ParticleEffect",
+          "particles": 40,
+          "length": 220,
+          "lifetime": 15,
+          "interp": "circleOut",
+          "cone": 8,
+          "colorFrom": "f1ffa9",
+          "colorTo": "f7c749",
+          "sizeFrom": 6,
+          "sizeTo": 1,
+          "line": true,
+          "strokeFrom": 0.8,
+          "strokeTo": 0.6
+        }
+      }
+    }
+  ]
+}

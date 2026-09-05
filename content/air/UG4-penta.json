@@ -1,0 +1,297 @@
+{
+  "type": "flying",
+  "name": "Penta",
+  "speed": 0.3,
+  "accel": 5,
+  "drag": 0.4,
+  "rotateSpeed": 0.3,
+  "flying": true,
+  "lowAltitude": true,
+  "faceTarget": true,
+  "crashDamageMultiplier": 9,
+  "research": "UF4-tentra",
+  "health": 24700,
+  "armor": 32,
+  "engines": [
+{
+"x": -22,
+"y": -32,
+"radius": 8,
+"rotation": 90
+}
+{
+"x": 22,
+"y": -32,
+"radius": 8,
+"rotation": 90
+}
+]
+  "engineOffset": 22,
+  "engineSize": 7.6,
+  "engineColor": "d23333",
+  "hitSize": 58,
+  "targetFlags": ["drill"],
+  "weapons": [
+    {
+///arriba
+      "name": "UF4-tentra-side-arm-1",
+      "y": 17,
+      "x": 14,
+      "reload": 35,
+      "ejectEffect": "casing1",
+      "rotateSpeed": 8,
+      "shootSound": "shootMissile",
+      "shoot": {
+        "shots": 4,
+        "shotDelay": 7
+      },
+      "rotate": true,
+      "bullet": {
+        "type": "MissileBulletType",
+        "speed": 2.7,
+        "damage": 96,
+        "width": 8,
+        "height": 8,
+        "shrinkY": 0,
+        "drag": -0.01,
+        "splashDamageRadius": 40,
+        "splashDamage": 60,
+        "lifetime": 80,
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
+        "trailColor": "d23333",
+        "frontColor": "e17f7f",
+        "backColor": "961f1f"
+        "homingPower": 2.8,
+        "homingRange": 65
+      }
+    },
+ {
+///abajo
+      "name": "UF4-tentra-side-arm-1",
+      "y": -8,
+      "x": 12,
+      "reload": 45,
+      "ejectEffect": "casing1",
+      "rotateSpeed": 6,
+      "shootSound": "shootMissile",
+      "shoot": {
+        "shots": 4,
+        "shotDelay": 9
+      },
+      "rotate": true,
+      "bullet": {
+        "type": "MissileBulletType",
+        "speed": 2.7,
+        "damage": 96,
+        "width": 8,
+        "height": 8,
+        "shrinkY": 0,
+        "drag": -0.01,
+        "splashDamageRadius": 40,
+        "splashDamage": 60,
+        "lifetime": 80,
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
+        "trailColor": "d23333",
+        "frontColor": "e17f7f",
+        "backColor": "961f1f"
+        "homingPower": 2.8,
+        "homingRange": 65
+      }
+    },
+    {
+      "name": "UF4-tentra-side-arm-2",
+      "x": 0,
+      "y": -9,
+      "mirror": false,
+      "shootY": 10,
+      "rotate": true,
+      "rotateSpeed": 1.1,
+      "reload": 588,
+      "shake": 1,
+      "rotateSpeed": 0.8,
+      "recoil": 6,
+      "soundPitchMin": 0.95,
+      "soundPitchMax": 2.05,
+      "shootSound": "ascends",
+      "bullet": {
+        "type": "basicBulletType",
+        "lifetime": 190,
+        "damage": 860,
+        "width": 35,
+        "height": 35,
+        "lightRadius": 120,
+        "spin": 8,
+        "despawnEffect": "instBomb",
+        "shootSound": "shootQuad",
+        "shootEffect": "shieldWave",
+        "hitEffect": "instShoot",
+        "trailEffect": "shieldWave",
+        "trailChance": 2,
+        "speed": 5,
+        "shrinkY": 1,
+        "shrinkX": 1,
+        "drag": 0.2,
+        "splashDamage": 300,
+        "splashDamageRadius": 120,
+        "hitSound": "shockBoom",
+        "frontColor": "e17f7f",
+        "backColor": "961f1f"
+        "status": "fenadis-ignition",
+        "statusDuration": 300,
+        "hittable": true,
+        "reflectable": false,
+        "absorbable": true,
+        "sprite": "large-orb",
+        "homingPower": 125,
+        "homingRange": 180,
+        "homingDelay": 55,
+        "length": 180
+      }
+    }
+{
+    "name": "UF4-tentra-weapon",
+    "shootSound": "shockblast",
+    "reload": 180,
+    "recoils": 2,
+    "shoot": {
+        "shots": 8,
+        "shotDelay": 8,
+      "type": "ShootBarrel"
+      "barrels": [
+        -17, 21, 0,
+        17, 21, 0,
+        -16, 20, 0,
+        16, 20, 0
+        ]
+      }
+   "y": 17,
+    "layerOffset": -20,
+    "x": 0,
+    "parts": [
+      {
+        "type": "RegionPart",
+        "suffix": "-barrel-1",
+        "progress": "recoil",
+        "moveY": 14,
+        "y": 0,
+        "recoilIndex": 0,
+        "mirror": false,
+        "under": true
+      }
+      {
+        "type": "RegionPart",
+        "suffix": "-barrel-2",
+        "progress": "recoil"
+        "moveY": 14,
+        "y": 0,
+        "recoilIndex": 1,
+        "mirror": false,
+        "under": true
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-barrel-3",
+        "progress": "recoil"
+        "moveY": 14,
+        "y": 0,
+        "recoilIndex": 0,
+        "mirror": false,
+        "under": true
+      },
+      {
+        "type": "RegionPart",
+        "suffix": "-barrel-4",
+        "progress": "recoil"
+        "moveY": 14,
+        "y": 0,
+        "recoilIndex": 1,
+        "mirror": false,
+        "under": true
+      }
+    ]
+    "mirror": false,
+    "rotate": false,
+     "bullet": {
+        "type": "BasicBulletType",
+        "width": 21,
+        "height": 30,
+        "lifetime": 45,
+        "speed": 7,
+        "damage": 60,
+        "shootEffect": "shootBig",
+        "lightning": 18,
+        "lightningLength": 7,
+        "lightningColor": "e17f7f",
+        "lightningDamage": 25
+        "frontColor": "e17f7f",
+        "backColor": "961f1f"
+      },
+      "pointEffect": {
+        "type": "MultiEffect",
+        "effects": [
+          {
+            "type": "ParticleEffect",
+            "region": "-barrel-1",
+            "lifetime": 40,
+            "length": 0,
+            "sizeFrom": 4,
+            "sizeTo": 4
+          }
+          {
+            "type": "ParticleEffect",
+            "region": "-barrel-2",
+            "lifetime": 40,
+            "length": 0,
+            "sizeFrom": 4,
+            "sizeTo": 4,
+            "startDelay": 10
+          }
+          {
+            "type": "ParticleEffect",
+            "region": "-barrel-3",
+            "lifetime": 40,
+            "length": 0,
+            "sizeFrom": 4,
+            "sizeTo": 4,
+            "startDelay": 20
+          }
+          {
+            "type": "ParticleEffect",
+            "region": "-barrel-4",
+            "lifetime": 40,
+            "length": 0,
+            "sizeFrom": 4,
+            "sizeTo": 4,
+            "startDelay": 30
+          }
+      ]
+      }
+      "hitEffect": "massiveExplosion"
+    }
+  ]
+"abilities": [
+  {
+    "type": "SpawnDeathAbility",
+    "amount": 4,
+    "faceOutwards": true,
+    "spread": 90,
+    "unit": "UF0-vigilant",
+  },
+  {
+    "type": "SpawnDeathAbility",
+    "amount": 6,
+    "spread": 90,
+    "faceOutwards": true,
+    "unit": "UF2-collapsor",
+  },
+  {
+    "type": "SpawnDeathAbility",
+    "amount": 1,
+    "spread": 45,
+    "faceOutwards": true,
+    "unit": "UG2-heavy",
+  }
+]
+}
