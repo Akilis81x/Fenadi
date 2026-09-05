@@ -1,0 +1,68 @@
+{
+  "type": "GenericCrafter",
+  "name": "Aggressive Forge",
+  "size": 4,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": false,
+  "craftTime": 180,
+  "itemCapacity": 30,
+  "consumes": {
+  "power": 8.6,
+    "items": {
+      "items": [
+        {
+          "item": "i02-tinium",
+          "amount": 12
+        },
+        {
+          "item": "i05-crystalia",
+          "amount": 6
+        }
+      ]
+    }
+  },
+  "requirements": [
+    {
+      "item": "i07-advanced-mass",
+      "amount": 300
+    },
+    {
+      "item": "i02-tinium",
+      "amount": 325
+    },
+    {
+      "item": "i03-elastic-fiber",
+      "amount": 175
+},
+    {
+      "item": "i06-lizandri",
+      "amount": 275
+    }
+  ],
+  "shownPlanets": ["Fenadi"]
+  "craftEffect": "pulverizeRed",
+  "updateEffect": "pulverizeRed",
+  "category": "crafting",
+  "research": "PRA3-furnace-ferocity",
+  "outputItem": {
+    "item": "i06-lizandri",
+    "amount": 12
+  },
+  "health": 150,
+   "drawer": {
+    "type": "DrawMulti",
+  "drawers": [
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "ffef99",
+        "alpha": 1.1,
+        "glowIntensity": 1.4
+      },
+      {
+        "type": "DrawDefault",
+}
+]
+}
+}

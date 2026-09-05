@@ -1,0 +1,16 @@
+type: UnitAssemblerModule
+name: Aircraft Module
+size: 3
+category: units
+research: UA6-mechanoid-module
+requirements: [
+  i02-tinium/310
+  i03-elastic-fiber/250
+  i05-crystalia/180
+  i06-lizandri/240
+]
+consumes: {
+  power: 1.5
+}
+tier: 4
+researchCostMultiplier: 0.025

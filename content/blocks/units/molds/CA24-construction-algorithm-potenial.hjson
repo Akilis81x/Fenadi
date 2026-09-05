@@ -1,0 +1,13 @@
+type: Wall
+name: Construction Algorithm Potenial
+size: 4
+customShadow: true
+placeablePlayer: false
+requirements: [
+i06-lizandri/210
+i08-igneous-crystalia/700
+i09-lagavo/300
+i10-optical-fiber/580
+]
+research: CA19-construction-algorithm-penta
+researchCostMultiplier: 0.25

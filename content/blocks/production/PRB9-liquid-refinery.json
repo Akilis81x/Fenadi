@@ -1,0 +1,59 @@
+{
+  "researchCostMultiplier": 0.5,
+  "type": "GenericCrafter",
+  "name": "Liquid Refinery",
+  "outputLiquids": [
+    "l07-radiant-liquid/1.3",
+]
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+},     
+{
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "ffef99",
+        "alpha": 0.9,
+        "glowIntensity": 0.4
+},
+{
+        "type": "DrawLiquidRegion",
+        "suffix": "-liquid",
+        "drawLiquid": "l07-radiant-liquid"
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "size": 4,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "itemCapacity": 40,
+  "liquidCapacity": 680,
+  "craftTime": 65,
+  "updateEffect": "hitMeltdown",
+  "consumes": {
+    "power": 7,
+    "liquids": [
+      "l02-soro/1.3",
+      "l03-baruga/0.8"
+    ],
+    "items": [
+      "i05-crystalia/8",
+    ]
+  },
+  "requirements": [
+    "i07-advanced-mass/650",
+    "i06-lizandri/500",
+    "i09-lagavo/100",
+    "i10-optical-fiber/500"
+  ],
+  "category": "crafting",
+  "research": "PRA9-liquid-press",
+  "shownPlanets": ["Fenadi"]
+}

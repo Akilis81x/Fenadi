@@ -1,0 +1,78 @@
+{
+  "type": "GenericCrafter",
+  "name": "Viscosity Blender",
+  "size": 4,
+  "hasPower": true,
+  "hasItems": true,
+  "hasLiquids": true,
+  "itemCapacity": 80,
+  "health": 720,
+  "liquidCapacity": 250,
+  "craftTime": 145,
+  "updateEffect": "none",
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom",
+  },
+      {
+        "type": "DrawLiquidRegion",
+        "suffix": "-liquid",
+        "drawLiquid": "l01-yavama"
+  },
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "ffef99",
+        "alpha": 0.9,
+        "glowIntensity": 0.8
+      },
+      {
+        "type": "DrawDefault"
+}
+]
+}
+  "consumes": {
+    "power": 5.6,
+    "items": {
+      "items": [
+        {
+          "item": "i01-basic-mass",
+          "amount": 20
+},
+        {
+          "item": "i03-elastic-fiber",
+          "amount": 4
+        }
+      ]
+    } 
+  },
+  "requirements": [
+    {
+      "item": "i07-advanced-mass",
+      "amount": 400
+    },
+    {
+      "item": "i02-tinium",
+      "amount": 170
+ },
+    {
+      "item": "i03-elastic-fiber",
+      "amount": 270
+ },
+    {
+      "item": "i05-crystalia",
+      "amount": 470
+    }
+  ],
+  "category": "crafting",
+  "research": "PRA4-casting-chamber",
+  "shownPlanets": ["Fenadi"]
+  "outputLiquid": {
+    "liquid": "l01-yavama",
+    "amount": 1.5
+  }
+}
+

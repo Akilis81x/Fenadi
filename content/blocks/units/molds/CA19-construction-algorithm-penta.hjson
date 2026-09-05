@@ -1,0 +1,13 @@
+type: Wall
+name: Construction Algorithm Penta
+size: 3
+customShadow: true
+placeablePlayer: false
+requirements: [
+  i03-elastic-fiber/430
+  i05-crystalia/300
+  i06-lizandri/210
+  i10-optical-fiber/70
+]
+research: CA14-construction-algorithm-tentra
+researchCostMultiplier: 0.25

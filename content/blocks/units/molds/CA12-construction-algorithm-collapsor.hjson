@@ -1,0 +1,12 @@
+type: Wall
+name: Construction Algorithm Collapsor
+size: 3
+customShadow: true
+placeablePlayer: false
+requirements: [
+  i03-elastic-fiber/80
+  i06-lizandri/300
+  i08-igneous-crystalia/180
+]
+research: CA07-construction-algorithm-sturdy
+researchCostMultiplier: 0.25

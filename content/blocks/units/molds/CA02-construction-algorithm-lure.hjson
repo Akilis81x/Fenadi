@@ -1,0 +1,12 @@
+type: Wall
+name: Construction Algorithm Lure
+size: 2
+customShadow: true
+placeablePlayer: false
+requirements: [
+  i02-tinium/50
+  i03-elastic-fiber/25
+  i06-lizandri/50
+]
+research: CA0-construction-algorithm-advocate
+researchCostMultiplier: 0.25

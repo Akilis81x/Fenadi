@@ -1,0 +1,74 @@
+{
+  "name": "Professional Assembly Barracks",
+  "type": "UnitAssembler",
+  "size": 5,
+  "areaSize": 13,
+  "droneType": "UJ4-architect-drone",
+  "dronesCreated": 4,
+  "droneConstructTime": 90,
+  "category": "units",
+  "consumes": {
+    "power": 16
+    "liquid": l05-dense-liquid/0.2,
+  },
+  "plans": [
+    {
+      "unit": "UG0-protective",
+      "requirements": [
+        "fenadi-CA15-construction-algorithm-protective/1",
+        "fenadi-WA5-large-lizandri-wall/10",
+        "fenadi-WB4-corrupt-wall/8",
+        "fenadi-WB6-optical-wall/2"
+      ],
+      "time": 7200
+    },
+    {
+      "unit": "UG1-supervisor",
+      "requirements": [
+        "fenadi-CA16-construction-algorithm-supervisor/1",
+        "fenadi-WA5-large-lizandri-wall/4",
+        "fenadi-WB0-advanced-wall/12",
+        "fenadi-WB6-optical-wall/8"
+      ],
+      "time": 8800
+    },
+    {
+      "unit": "UG2-heavy",
+      "requirements": [
+        "fenadi-CA17-construction-algorithm-heavy/1",
+        "fenadi-WA5-large-lizandri-wall/20",
+        "fenadi-WB5-large-corrupt-wall/10",
+        "fenadi-WB6-optical-wall/6"
+      ],
+      "time": 9800
+   },
+    {
+      "unit": "UG3-muffler",
+      "requirements": [
+        "fenadi-CA18-construction-algorithm-muffler/1",
+        "fenadi-WA5-large-lizandri-wall/8",
+        "fenadi-WB0-advanced-wall/8",
+        "fenadi-WB6-optical-wall/6"
+      ],
+      "time": 8600
+   },
+    {
+      "unit": "UG4-penta",
+      "requirements": [
+        "fenadi-CA19-construction-algorithm-penta/1",
+        "fenadi-WA5-large-lizandri-wall/20",
+        "fenadi-WB3-large-igneous-wall/10",
+        "fenadi-WB5-large-corrupt-wall/6",
+        "fenadi-WB6-optical-wall/2"
+      ],
+      "time": 11800
+    }
+  ],
+  "research": "UB0-advanced-assembly-barracks",
+  "requirements": [
+    "i07-advanced-mass/880",
+    "i06-lizandri/855",
+    "i09-lagavo/370",
+    "i10-optical-fiber/80"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "type": "GenericCrafter",
+  "name": "Precision Fuser",
+  "outputItem": {
+    "item": "i10-optical-fiber",
+    "amount": 4
+  },
+  "health": 740,
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawDefault" 
+      }
+      {
+        "type": "DrawGlowRegion",
+        "suffix": "-glow",
+        "color": "f1a397"
+      }
+      ]
+  },
+  "itemCapacity": 30,
+  "size": 3,
+  "craftTime": 180,
+  "health": 240,
+  "hasPower": true,
+  "hasLiquids": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 6,
+    "liquid": {
+      "liquid": "l02-soro",
+      "amount": 0.4
+    },
+    "items": {
+      "items": [
+        {
+          "item": "i02-tinium",
+          "amount": 8
+        },
+        {
+          "item": "i03-elastic-fiber",
+          "amount": 8
+        }
+      ]
+    }
+  },
+  "requirements": [
+
+    {
+      "item": "i07-advanced-mass",
+      "amount": 250
+    },
+    {
+      "item": "i02-tinium",
+      "amount": 400
+    },
+    {
+      "item": "i03-elastic-fiber",
+      "amount": 600
+    },
+    {
+      "item": "i06-lizandri",
+      "amount": 250
+    }
+  ],
+  "category": "crafting",
+  "research": "PRB2-plasticizer",
+ "shownPlanets": ["Fenadi"]
+}

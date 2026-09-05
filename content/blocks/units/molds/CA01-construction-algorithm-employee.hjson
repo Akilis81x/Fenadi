@@ -1,0 +1,11 @@
+type: Wall
+name: Construction Algorithm Employee
+size: 2
+customShadow: true
+placeablePlayer: false
+requirements: [
+  i02-tinium/25
+  i03-elastic-fiber/50
+]
+research: CA0-construction-algorithm-advocate
+researchCostMultiplier: 0.25

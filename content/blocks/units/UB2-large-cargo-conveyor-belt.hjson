@@ -1,0 +1,12 @@
+type: PayloadConveyor
+size: 5
+name: Large Cargo Conveyor Belt
+category: units
+research: UA9-cargo-conveyor-belt-router
+requirements: [
+  i07-advanced-mass/40
+  i06-lizandri/75
+]
+canOverdrive: false
+payloadLimit: 7.5
+researchCostMultiplier: 0.5

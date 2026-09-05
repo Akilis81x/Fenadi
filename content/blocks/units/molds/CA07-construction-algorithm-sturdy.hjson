@@ -1,0 +1,12 @@
+type: Wall
+name: Construction Algorithm Sturdy
+size: 2
+customShadow: true
+placeablePlayer: false
+requirements: [
+  i02-tinium/270
+  i03-elastic-fiber/80
+  i06-lizandri/80
+]
+research: CA02-construction-algorithm-lure
+researchCostMultiplier: 0.25

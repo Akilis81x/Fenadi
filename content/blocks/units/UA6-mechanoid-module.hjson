@@ -1,0 +1,15 @@
+type: UnitAssemblerModule
+name: Mechanoid Module
+size: 3
+category: units
+research: UA4-vehicle-module
+requirements: [
+  i02-tinium/210
+  i03-elastic-fiber/150
+  i05-crystalia/80
+]
+consumes: {
+  power: 1.5
+}
+tier: 3
+researchCostMultiplier: 0.025

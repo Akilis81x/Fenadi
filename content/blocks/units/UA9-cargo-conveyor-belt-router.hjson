@@ -1,0 +1,11 @@
+type: PayloadRouter
+name: Cargo Conveyor Belt Router
+category: units
+size: 3
+research: UA1-cargo-conveyor-belt
+requirements: [
+  i01-basic-mass/30
+  i02-tinium/60
+]
+canOverdrive: true
+researchCostMultiplier: 0.5

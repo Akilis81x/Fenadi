@@ -1,0 +1,64 @@
+{
+  "type": "AttributeCrafter",
+  "name": "Corrosive Concentrator",
+  "size": 3,
+  "hasItems": false,
+  "hasPower": true,
+  "hasLiquids": true,
+  "scaledHealth": 60,
+  "liquidCapacity": 190,
+  "attribute": "spores",
+  "maxBoost": 1,
+  "minEfficiency": 1,
+  "baseEfficiency": 1,
+  "boostScale": 1,
+  "envRequired": 1,
+  "category": "crafting",
+  "craftEffect": {
+     "type": "ParticleEffect",
+     "particles": 8,
+     "length": 16,
+     "colorFrom": "5c5e9f",
+    "colorTo": "bf92f9",
+    "interp": "circleIn"
+  },
+   "consumes": {
+   "power": 4.40
+   "liquid": "l01-yavama/0.2"
+},
+  "research": {
+  "parent": "PRA4-casting-chamber"
+  "objectives": [
+    {
+      "type": "OnSector"
+     "preset": "s07-chemical-synthesis-plant"
+    }
+  ]
+}
+  "requirements": [
+    "i01-basic-mass/200",
+    "i03-elastic-fiber/65",
+    "i05-crystalia/66",
+    "i06-lizandri/68"
+  ],
+   "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom"
+},
+{
+        "type": "DrawLiquidRegion",
+        "suffix": "-liquid",
+        "drawLiquid": "l03-baruga"
+      },
+      {
+        "type": "DrawDefault"
+      }
+    ]
+  },
+  "outputLiquid": "l03-baruga/0.4",
+  "craftTime": 30
+  "shownPlanets": ["Fenadi"]
+}

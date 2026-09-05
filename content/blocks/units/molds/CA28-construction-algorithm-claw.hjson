@@ -1,0 +1,14 @@
+type: Wall
+name: Construction Algorithm Claw
+size: 4
+customShadow: true
+placeablePlayer: false
+requirements: [
+i06-lizandri/700
+i09-lagavo/700
+i10-optical-fiber/500
+i14-otucium/200
+i16-complex-fiber/200
+]
+research: CA23-construction-algorithm-dismantler
+researchCostMultiplier: 0.25
