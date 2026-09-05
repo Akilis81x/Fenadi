@@ -1,0 +1,23 @@
+type: CoreBlock
+name: Core: Ultratroli
+requirements: [
+  i13-complex-mass/4200
+  i09-lagavo/3800
+  i14-otucium/1800
+  i15-processor-f08/1500
+  i16-complex-fiber/1400
+]
+size: 6
+squareSprite: false
+powerProduction: 3.75
+armor: 70
+unitType: alpha
+health: 13200
+itemCapacity: 21400
+unitCapModifier: 65
+category: effect
+researchCostMultiplier: 0.05
+research: EC0-core-multitroli
+buildCostMultiplier: 1.15
+objectives: 
+type: SectorComplete
