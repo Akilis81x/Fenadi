@@ -1,9 +1,0 @@
-name: Agony
-damageMultiplier: 0.1
-buildSpeedMultiplier: 0.1
-reloadMultiplier: 0.3
-permanent: false
-affinities: [fenadis-ignition, fenadis-suffocation]
-opposites: [fenadis-corrosive, fenadis-corruption]
-damage: 8
-transitionDamage: 65

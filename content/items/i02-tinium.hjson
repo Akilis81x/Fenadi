@@ -1,6 +1,0 @@
-name: Tinium
-hardness: 1.5
-cost: 0.7
-color: 7c7c7c
-research: i01-basic-mass
-hiddenOnPlanets: [serpulo, erekir]

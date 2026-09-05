@@ -1,8 +1,0 @@
-{
-  "type": "Floor",
-  "localizedName": "Extinguished Igneous Floor",
-  "variants": 3
-  "attributes": {
-    "heat": -1
-}
-}

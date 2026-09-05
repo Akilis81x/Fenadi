@@ -1,6 +1,0 @@
-name: Friction
-damage: 0.20
-permanent: false
-speedMultiplier: 0.02
-damageMultiplier: 0
-disarm: true

@@ -1,6 +1,0 @@
-name: Corrosive
-reloadMultiplier: 0.2
-speedMultiplier: 0.2
-permanent: false
-affinities: [fenadis-corruption]
-opposites: [fenadis-friction]

@@ -1,9 +1,0 @@
-name: Processor F08
-explosiveness: 1.0
-flammability: 2.85
-radioactivity: 3.55
-charge: 3.5
-cost: 0.5
-color: 4d766e
-research: i14-otucium
-hiddenOnPlanets: [serpulo, erekir]

@@ -1,9 +1,0 @@
-name: Processor P41
-explosiveness: 8.35
-flammability: 6.25
-charge: 8.95
-radioactivity: 8.55
-color: 212f28
-cost: 0.8
-research: i15-processor-f08
-hiddenOnPlanets: [serpulo, erekir]

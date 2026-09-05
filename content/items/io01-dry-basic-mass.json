@@ -1,7 +1,0 @@
-name: Dry Basic Mass
-hardness: 1
-cost: 0.5
-alwaysUnlocked: true
-color: 94887d
-research: i01-basic-mass
-hiddenOnPlanets: [serpulo, erekir]

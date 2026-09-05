@@ -1,7 +1,0 @@
-name: Basic Mass
-hardness: 1
-cost: 0.5
-alwaysUnlocked: true
-color: ff7d00
-research: EA0-core-town
-hiddenOnPlanets: [serpulo, erekir]

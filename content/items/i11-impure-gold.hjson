@@ -1,7 +1,0 @@
-name: Impure Gold
-hardness: 2.5
-radioactivity: 0.2
-buildable: false
-color: 857d3d
-research: i09-lagavo
-hiddenOnPlanets: [serpulo, erekir]

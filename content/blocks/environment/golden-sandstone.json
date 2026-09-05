@@ -1,8 +1,0 @@
-{
-  "type": "Floor",
-  "variants": 4
-  "speedMultiplier": 2.5,
-  "attributes": {
-    "spores": 0.02
-}
-}

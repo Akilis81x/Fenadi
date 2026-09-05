@@ -1,8 +1,0 @@
-name: Suffocation
-damageMultiplier: 0.5
-buildSpeedMultiplier: 0.5
-reloadMultiplier: 0.5
-affinities: [fenadis-ignition]
-opposites: [fenadis-corrosive]
-damage: 4
-transitionDamage: 85

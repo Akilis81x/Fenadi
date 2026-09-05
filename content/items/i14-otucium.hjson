@@ -1,9 +1,0 @@
-name: Otucium
-explosiveness: 1.0
-flammability: 3.55
-radioactivity: 3.55
-charge: 1.1
-cost: 0.2
-color: 747994
-research: i06-lizandri
-hiddenOnPlanets: [serpulo, erekir]

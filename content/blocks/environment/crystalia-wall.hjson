@@ -1,5 +1,0 @@
-name: Crystalia Wall
-type: StaticWall
-playerUnmineable: true
-itemDrop: i05-crystalia
-variants: 3

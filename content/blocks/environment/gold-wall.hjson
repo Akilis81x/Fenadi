@@ -1,5 +1,0 @@
-name: Gold Wall
-type: StaticWall
-playerUnmineable: true
-itemDrop: i11-impure-gold
-variants: 3

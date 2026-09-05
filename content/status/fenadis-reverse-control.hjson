@@ -1,7 +1,0 @@
-name: Reverse Control
-show: true
-permanent: false
-affinities: [fenadis-cyber-strike]
-opposites: [fenadis-ignition, fenadis-suffocation]
-damage: 20
-transitionDamage: 800

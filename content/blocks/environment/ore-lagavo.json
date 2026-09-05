@@ -1,9 +1,0 @@
-{
-  "type": "OreBlock",
-  "localizedName": "Ore Lagavo",
-  "itemDrop": "i09-lagavo",
-  "playerUnmineable": true,
-  "hasColor": true,
-  "mapColor": "7a89bc",
-  "variants": 3
-}

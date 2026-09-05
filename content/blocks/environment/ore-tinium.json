@@ -1,9 +1,0 @@
-{
-  "type": "OreBlock",
-  "localizedName": "Ore Tinium",
-  "itemDrop": "i02-tinium",
-  "playerUnmineable": true,
-  "hasColor": true,
-  "mapColor": "e8d9d9",
-  "variants": 3
-}

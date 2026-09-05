@@ -1,9 +1,0 @@
-{
-  "type": "OreBlock",
-  "localizedName": "Ore Crystalia",
-  "itemDrop": "i05-crystalia",
-  "playerUnmineable": true,
-  "hasColor": true,
-  "mapColor": "7a89bc",
-  "variants": 3
-}
