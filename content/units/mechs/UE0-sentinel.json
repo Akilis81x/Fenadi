@@ -1,0 +1,75 @@
+{
+  "name": "Sentinel",
+  "type": "mech",
+  "outlineColor": "2e2f34",
+  "flying": false,
+  "speed": 0.9,
+  "hitSize": 14,
+  "researchCostMultiplier": 1,
+  "health": 2720,
+  "armor": 6,
+  "research": "UD0-advocate",
+"abilities": [
+  {
+    "type": "ArmorPlateAbility",
+    "healthMultiplier": 0.5
+  }
+]
+  "weapons": [
+    {
+      "name": "UE0-sentinel-weapon",
+      "top": true,
+      "under": true,
+      "layerOffset": -1,
+      "y": -1,
+      "reload": 32,
+      "x": 2,
+      "shootX": 6,
+      "shootY": 6,
+      "mirror": true,
+      "alternate": true,
+      "shootSound": "shootSalvo",
+      "bullet": {
+        "type": "basicBulletType",
+        "sprite": "circle",
+        "damage": 30,
+        "buildingDamageMultiplier": 1.8,
+        "pierceBuilding": false,
+        "pierce": false,
+        "trailColor": "f7c749",
+        "trailLength": 12,
+        "trailWidth": 2,
+        "status": "fenadis-friction",
+        "statusDuration": 3,
+        "speed": 3,
+        "shrinkY": 0,
+        "shrinkX": 0,
+        "width": 3,
+        "height": 3,
+        "lifetime": 50,
+        "lightColor": "f1ffa9",
+        "colorFrom": "f1ffa9",
+        "colorTo": "f7c749",
+        "fragBullets": 7,
+        "fragRandomSpread": 0,
+        "fragSpread": 10,
+        "fragBullet": {
+          "type": "basicBulletType",
+          "sprite": "circle",
+          "damage": 5,
+          "pierce": true,
+          "pierceBuilding": true,
+          "speed": 5,
+          "lifetime": 15,
+          "shrinkY": 0,
+          "shrinkX": 0,
+          "width": 2,
+          "height": 2,
+          "trailColor": "f7c749",
+          "trailLength": 6,
+          "trailWidth": 1,
+        }
+      }
+    }
+  ]
+}

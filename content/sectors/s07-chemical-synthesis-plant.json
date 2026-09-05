@@ -1,0 +1,14 @@
+"name": "Chemical Synthesis Plant",
+"difficulty": 2,
+"planet": "Fenadi",
+"sector": 84,
+"alwaysUnlocked": true,
+"research": {
+  "parent": "s05-corrupt-pit",
+  "objectives": [
+    {
+      "type": "SectorComplete",
+      "preset": "s05-corrupt-pit"
+    }
+  ]
+}

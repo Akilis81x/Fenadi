@@ -1,0 +1,8 @@
+name: Lagavo
+hardness: 3.5
+cost: 1.5
+explosiveness: 0.5
+radioactivity: 8.8
+color: 200243
+research: i05-crystalia
+hiddenOnPlanets: [serpulo, erekir]

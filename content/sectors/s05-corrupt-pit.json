@@ -1,0 +1,14 @@
+"name": "Corrupt Pit",
+"difficulty": 2,
+"planet": "Fenadi",
+"sector": 95,
+"alwaysUnlocked": true,
+"research": {
+  "parent": "s04-crystallized-rift",
+  "objectives": [
+    {
+      "type": "SectorComplete",
+      "preset": "s04-crystallized-rift"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "type": "tank",
+  "name": "Collapsor",
+  "speed": 1.8,
+  "hitSize": 23,
+  "health": 3100,
+  "armor": 30,
+  "range": 70,
+  "research": "UE2-sturdy",
+  "squareShape": false,
+  "treadPullOffset": 8,
+ "treadRects": [
+  {
+  "x": 11,
+  "y": -19,
+  "width": 12,
+  "height": 38
+    }
+  ],
+  "singleTarget": true,
+  "omniMovement": false,
+  "rotateSpeed": 2.5,
+  "faceTarget": false,
+  "weapons": [
+    {
+      "shootOnDeath": true,
+      "reload": 24,
+      "shootCone": 180,
+      "ejectEffect": "none",
+      "shootSound": "explosionQuad",
+      "x": 0,
+      "shootY": 0,
+      "mirror": false,
+      "bullet": {
+        "collides": true,
+        "collidesTiles": true,
+        "hitSound": "explosion",
+        "rangeOverride": 50,
+        "hitEffect": "pulverize",
+        "speed": 0,
+        "splashDamageRadius": 135,
+        "instantDisappear": true,
+        "splashDamage": 920,
+        "killShooter": true,
+        "hittable": true,
+        "collidesAir": true,
+        "damage": 160
+      }
+    }  
+  ]
+}

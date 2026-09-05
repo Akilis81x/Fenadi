@@ -1,0 +1,6 @@
+name: Corruption
+reloadMultiplier: 0.5
+speedMultiplier: 0.5
+permanent: false
+affinities: [fenadis-corrosive]
+opposites: [fenadis-friction]

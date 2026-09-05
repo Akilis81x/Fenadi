@@ -1,0 +1,7 @@
+name: Ignition
+show: true
+permanent: false
+affinities: [fenadis-suffocation]
+opposites: [fenadis-corrosive]
+damage: 4
+transitionDamage: 15
