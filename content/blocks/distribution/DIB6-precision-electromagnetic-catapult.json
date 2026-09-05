@@ -1,0 +1,33 @@
+{
+  "type": "MassDriver",
+  "name": "Precision Electromagnetic Catapult",
+  "health": 720,
+  "itemCapacity": 200,
+  "reload": 110
+  "range": 400,
+  "size": 3,
+  "consumes": {
+    "power": 3
+  },
+  "requirements": [
+    {
+      "item": "i07-advanced-mass",
+      "amount": 200
+    },  
+    {
+      "item": "i06-lizandri",
+      "amount": 710
+    },
+    {
+      "item": "i08-igneous-crystalia",
+      "amount": 400
+    },
+    {
+      "item": "i10-optical-fiber",
+      "amount": 50
+    }
+  ],
+  "category": "distribution",
+  "research": "DIA9-compressed-catapult",
+  "shownPlanets": ["Fenadi"]
+}

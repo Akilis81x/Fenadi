@@ -1,0 +1,24 @@
+type: PowerNode
+name: Elastic Pole
+size: 2
+outputsPower: true
+health: 220
+maxNodes: 8
+laserRange: 11
+fogRadius: 20
+category: power
+requirements: [
+    i01-basic-mass/25
+    i02-tinium/18
+    i03-elastic-fiber/5
+]
+  research: {
+  parent: EA0-core-town
+  objectives: [
+    {
+      type: OnSector
+     preset: s02-abandoned-storage-area
+    }
+  ]
+}
+shownPlanets: [Fenadi]

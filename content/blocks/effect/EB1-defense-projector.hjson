@@ -1,0 +1,39 @@
+{
+    "type": "ForceProjector",
+    "name": "Defense Projector",
+    "size": 3,
+     "shownPlanets": ["Fenadi"]
+    "health": 2500,
+    "radius": 190,
+    "sides": 4,
+    "shieldRotation": 45,
+    "shieldHealth": 14500,
+    "cooldownNormal": 1.1,
+    "cooldownBrokenBase": 0.9,
+    "cooldownLiquid": 2.65,
+    "coolantConsumption": 0.6,
+    "category": "effect",
+    "phaseRadiusBoost": 270,
+    "phaseShieldBoost": 6200,
+    "phaseUseTime": 30,
+    "requirements": [
+        {"item": "i07-advanced-mass", "amount": 300},
+        {"item": "i03-elastic-fiber", "amount": 265},
+        {"item": "i06-lizandri", "amount": 450},
+        {"item": "i08-igneous-crystalia", "amount": 200},
+    ],
+    "consumes": {
+    "power": 10,
+    "items": {
+      "items": [
+        {
+          "amount": 5,
+          "item": "i08-igneous-crystalia"
+        }
+      ],
+      "optional": true,
+      "booster": true,
+  }
+},
+    "research": "EA4-assistance-tower",
+}

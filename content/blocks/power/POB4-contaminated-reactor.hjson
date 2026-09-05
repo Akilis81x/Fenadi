@@ -1,0 +1,38 @@
+type: NuclearReactor
+name: "Contaminated Reactor"
+size: 5
+hasPower: true
+hasLiquids: true
+hasItems: true
+explosionShake: 10
+explodeSound: shootBig
+itemCapacity: 30
+liquidCapacity: 820
+itemDuration: 850
+powerProduction: 222
+heating: 0.02
+smokeThreshold: 1.58
+explosionRadius: 300
+explosionDamage: 8000
+flashThreshold: 0.4
+coolantPower: 0.5
+fuelItem: i09-lagavo
+consumes: {
+ liquid: l05-dense-liquid/0.3
+ items: {
+  items: [
+    {item: i09-lagavo, amount: 8}
+  ]
+ }
+}
+requirements: [
+  i07-advanced-mass/230
+  i03-elastic-fiber/1200
+  i05-crystalia/750
+  i06-lizandri/300
+  i09-lagavo/90
+  i10-optical-fiber/60
+]
+category: power
+research: POB3-corrosive-generator
+shownPlanets: [Fenadi]

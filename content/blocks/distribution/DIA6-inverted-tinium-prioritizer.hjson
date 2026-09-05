@@ -1,0 +1,21 @@
+type: OverflowDuct
+name: Inverted Tinium Prioritizer
+size: 1
+squareSprite: false
+speed: 1.5
+invert: true
+requirements: [
+i01-basic-mass/2
+i02-tinium/4
+]
+  research: {
+  parent: DIA5-tinium-prioritizer
+  objectives: [
+    {
+     type: OnSector
+     preset: s01-isolated-valley
+    }
+  ]
+}
+researchCostMultiplier: 0.5
+shownPlanets: [Fenadi]

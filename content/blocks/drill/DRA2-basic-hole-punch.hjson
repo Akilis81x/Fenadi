@@ -1,0 +1,39 @@
+{
+  "type": "BeamDrill",
+  "name": "Basic Hole Punch",
+  "size": 2,
+  "shownPlanets": ["Fenadi"]
+  "category": "production",
+  "research": {
+  "parent": "DRA0-basic-drill"
+  "objectives": [
+    {
+      "type": "OnSector"
+     "preset": "s02-abandoned-storage-area"
+    }
+  ]
+}
+  "requirements": [
+    "i01-basic-mass/160",
+    "i02-tinium/120",
+    "i03-elastic-fiber/80"
+  ],
+  "drillMultipliers": {
+        "i02-tinium": 2.2,
+        "i05-crystalia": 2.8,
+        "i08-igneous-crystalia": 2.8
+}
+  "tier": 3,
+  "range": 10,
+  "drillTime": 160,
+  "fogRadius": 3,
+  "consumes": {
+    "power": 1.5,
+    "liquid": {
+      "liquid": "l03-baruga",
+      "amount": 0.1,
+      "optional": true,
+      "booster": true,
+    }
+  }
+} 

@@ -1,0 +1,48 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Flame Generator",
+  "size": 2,
+  "health": 85,
+  "consumeEffect": "surgeCruciSmoke",
+  "explodeOnFull": false,
+  "itemDuration": 60,
+  "consumes": {
+    "liquid": "l02-soro/0.1"
+  },
+  "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+      {
+        "type": "DrawRegion",
+        "suffix": "-bottom" 
+      },
+      {
+        "type": "DrawLiquidTile",
+        "drawLiquid": "l02-soro"
+      },
+      {
+        "type": "DrawDefault" 
+      }
+    ]
+  },
+  "category": "power",
+  "research": {
+  "parent": "POA2-elastic-solar-panel"
+  "objectives": [
+    {
+      "type": "OnSector"
+     "preset": "s07-chemical-synthesis-plant"
+    }
+  ]
+}
+  "shownPlanets": ["Fenadi"]
+  "powerProduction": 4.4,
+  "hasLiquids": true,
+  "liquidCapacity": 100,
+  "requirements": [
+    "i01-basic-mass/320",
+    "i02-tinium/300",
+    "i03-elastic-fiber/120",
+    "i05-crystalia/80"
+  ]
+}

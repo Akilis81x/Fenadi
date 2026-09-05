@@ -1,0 +1,20 @@
+type: OverflowDuct
+name: Tinium Prioritizer
+size: 1
+squareSprite: false
+speed: 1.5
+requirements: [
+i01-basic-mass/2
+i02-tinium/4
+]
+  research: {
+  parent: DIA1-tinium-router
+  objectives: [
+    {
+     type: OnSector
+     preset: s01-isolated-valley
+    }
+  ]
+}
+researchCostMultiplier: 0.5
+shownPlanets: [Fenadi]

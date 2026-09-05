@@ -1,0 +1,20 @@
+type: Pump
+category: liquid
+name: Optical Pump
+size: 3
+liquidCapacity: 600
+pumpAmount: 0.2
+hasPower: true
+placeableLiquid: true
+requirements: [
+    i05-crystalia/185
+    i06-lizandri/110
+    i09-lagavo/40
+    i10-optical-fiber/35
+]
+consumes: {
+    power: 6.20
+}
+research: LIA4-lizandri-pump
+buildCostMultiplier: 0.5
+shownPlanets: [Fenadi]

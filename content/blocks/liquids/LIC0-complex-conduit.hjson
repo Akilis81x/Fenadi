@@ -1,0 +1,19 @@
+type: ArmoredConduit
+name: Complex Conduit
+health: 470
+leaks: false
+junctionReplacement: fenadi-LIA1-lizandri-junction
+bridgeReplacement: fenadi-LIC1-complex-bridge
+underBullets: true
+conductivePower: true
+liquidPressure: 4.3
+liquidCapacity: 280
+requirements: [
+  i13-complex-mass/15
+  i06-lizandri/30
+  i10-optical-fiber/15
+]
+category: liquid
+research: LIB0-optical-conduit
+researchCostMultiplier: 3
+shownPlanets: [Fenadi]

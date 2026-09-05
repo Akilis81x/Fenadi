@@ -1,0 +1,18 @@
+type: LiquidRouter
+size: 3
+hasLiquids: true
+placeableLiquid: true
+liquidCapacity: 4000
+squareSprite: false
+name: Crystalia Silo
+category: liquid
+requirements: [
+  i05-crystalia/280
+  i06-lizandri/140
+]
+liquidPadding: 2.5
+researchCostMultiplier: 0.5
+research: LIA5-crystalia-container
+buildCostMultiplier: 1.15
+shownPlanets: [Fenadi]
+

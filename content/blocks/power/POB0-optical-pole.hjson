@@ -1,0 +1,16 @@
+type: PowerNode
+name: Optical Pole
+size: 2
+outputsPower: true
+health: 520
+maxNodes: 12
+laserRange: 27
+fogRadius: 20
+category: power
+requirements: [
+    i07-advanced-mass/5
+    i06-lizandri/8
+    i10-optical-fiber/10
+]
+research: POA0-elastic-pole
+shownPlanets: [Fenadi]

@@ -1,0 +1,43 @@
+{
+  "type": "MassDriver",
+  "name": "Atomic Teleporter",
+  "health": 1720,
+  "itemCapacity": 500,
+  "reload": 70
+  "range": 1800,
+  "bulletLifetime": 500,
+  "bulletSpeed": 10,
+  "size": 3,
+  "consumes": {
+    "power": 8.5
+  },
+  "requirements": [
+    {
+      "item": "i13-complex-mass",
+      "amount": 200
+    },
+    {
+      "item": "i08-igneous-crystalia",
+      "amount": 800
+    },
+    {
+      "item": "i09-lagavo",
+      "amount": 300
+    },
+    {
+      "item": "i10-optical-fiber",
+      "amount": 800
+    },
+    {
+      "item": "i14-otucium",
+      "amount": 30
+    },
+    {
+      "item": "i15-processor-f08",
+      "amount": 200
+    }
+  ],
+  "category": "distribution",
+  "research": "DIB6-precision-electromagnetic-catapult",
+  "shownPlanets": ["Fenadi"]
+}

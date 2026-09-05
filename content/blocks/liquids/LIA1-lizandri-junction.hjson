@@ -1,0 +1,15 @@
+type: LiquidJunction
+name: Lizandri Juction
+solid: false
+placeableLiquid: true
+category: liquid
+squareSprite: false
+requirements: [
+  i05-crystalia/8
+  i06-lizandri/2
+]
+researchCostMultiplier: 0.5
+research: LIA0-lizandri-conduit
+buildCostMultiplier: 1.15
+shownPlanets: [Fenadi]
+
