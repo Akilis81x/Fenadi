@@ -1,0 +1,7 @@
+{
+  "type": "Floor",
+  "variants": 7
+  "emitLight": true,
+  "lightRadius": 49,
+  "lightColor": "A9D8FFFF",
+}

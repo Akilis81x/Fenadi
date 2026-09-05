@@ -1,0 +1,6 @@
+name: Tinium Wall
+type: StaticWall
+playerUnmineable: true
+mapColor: "e8d9d9"
+itemDrop: i02-tinium
+variants: 3

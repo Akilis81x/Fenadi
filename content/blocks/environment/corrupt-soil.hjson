@@ -1,0 +1,11 @@
+{
+"type": "Floor",
+name: "Corrupt Soil",
+"variants": 8,
+ "attributes": {
+    "spores": 0.88
+}
+"speedMultiplier": 0.15,
+"damageTaken": 5.5,
+"wall": "corrupt-wall",
+}

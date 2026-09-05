@@ -1,0 +1,8 @@
+{
+  "type": "OreBlock",
+  "localizedName": "Ore Extinguished Igneous Crystalia",
+  "itemDrop": "io03-extinguished-igneous-crystalia",
+  "hasColor": true,
+  "mapColor": "785a52",
+  "variants": 3
+}

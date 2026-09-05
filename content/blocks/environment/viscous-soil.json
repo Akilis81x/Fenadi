@@ -1,0 +1,12 @@
+{
+  "type": "Floor",
+  "variants": 3,
+  "speedMultiplier": 0.45,
+  "localizedName": "Viscous Soil",
+  "itemDrop": "i01-basic-mass",
+  "playerUnmineable": true,
+  "wall": "viscous-wall",
+  "decoration": "viscous-boulder"
+  "status": "muddy",
+  "statusDuration": 60
+}

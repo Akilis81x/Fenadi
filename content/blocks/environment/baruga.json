@@ -1,0 +1,12 @@
+{
+  "type": "Floor",
+  "speedMultiplier": 0.2,
+  "variants": 0,
+  "statusDuration": 60,
+  "isLiquid": "true",
+  "albedo": 5.5,
+  "status": "fenadis-corrosive",
+  "cacheLayer": "water",
+  "liquidDrop": "l03-baruga"
+  "supportsOverlay": true
+}

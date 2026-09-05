@@ -1,0 +1,9 @@
+{
+  "type": "OreBlock",
+  "localizedName": "Ore Debris",
+  "itemDrop": "i04-debris",
+  "playerUnmineable": true,
+  "hasColor": true,
+  "mapColor": "7a89bc",
+  "variants": 4
+}

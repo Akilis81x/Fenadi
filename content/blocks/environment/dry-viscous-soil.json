@@ -1,0 +1,8 @@
+{
+  "type": "Floor",
+  "localizedName": "Dry Viscous Soil",
+  "itemDrop": "io01-dry-basic-mass",
+  "mapColor": "94887d",
+  "speedMultiplier": 1.5,
+  "variants": 3
+}
