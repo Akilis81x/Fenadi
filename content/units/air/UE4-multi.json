@@ -21,7 +21,6 @@
       "shootY": 6,
       "reload": 8,
       "ejectEffect": "casing1",
-      "shootSound": "pew",
       "bullet": {
         "type": "BasicBulletType",
         "speed": 3.5,
@@ -30,7 +29,7 @@
         "height": 9,
         "lifetime": 85,
         "buildingDamageMultiplier": 1.8
-        "shootEffect": "shootStell",
+        "shootSound": "shootStell",
         "smokeEffect": "shootSmallSmoke",
         "frontColor": "e17f7f",
         "backColor": "961f1f"
