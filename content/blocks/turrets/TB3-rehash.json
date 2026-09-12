@@ -1,0 +1,115 @@
+type: ItemTurret
+name: Rehash
+size: 3
+health: 2720
+range: 240
+reload: 6
+maxAmmo: 50
+ammoPerShot: 10
+consumes: {
+  liquid: l04-explosive-liquid/0.4
+}
+shoot: {
+  shots: 8
+}
+shootSound: flame
+ammoTypes: {
+  i08-igneous-crystalia: {
+    damage: 58
+    speed: 6
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 2
+    ammoMultiplier: 8
+    status: fenadis-ignition
+    makeFire: true
+    lifetime: 45
+    despawnEffect: none
+    width: 0.01
+    height: 0.01
+    smokeEffect: {
+      type: ParticleEffect
+      particles: 25
+      length: 280
+      lifetime: 36
+      interp: circleOut
+      cone: 9
+      colorFrom: ffdd55
+      colorTo: db401c
+      sizeFrom: 4
+      sizeTo: 0.6
+    }
+    hitEffect: hitFlameSmall
+    despawnEffect: none
+    hittable: true
+    reflectable: false
+  }
+  i14-otucium: {
+    damage: 74
+    speed: 6
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 4
+    ammoMultiplier: 10
+    status: fenadis-ignition
+    makeFire: true
+    lifetime: 45
+    despawnEffect: none
+    width: 0.01
+    height: 0.01
+    smokeEffect: {
+      type: ParticleEffect
+      particles: 25
+      length: 280
+      lifetime: 36
+      interp: circleOut
+      cone: 9
+      colorFrom: ffdd55
+      colorTo: db401c
+      sizeFrom: 4
+      sizeTo: 0.6
+    }
+    hitEffect: hitFlameSmall
+    despawnEffect: none
+    hittable: true
+    reflectable: true
+  }
+  i15-processor-f08: {
+    damage: 182
+    speed: 6
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 5
+    ammoMultiplier: 10
+    status: fenadis-ignition
+    makeFire: true
+    lifetime: 45
+    despawnEffect: none
+    width: 0.01
+    height: 0.01
+    smokeEffect: {
+      type: ParticleEffect
+      particles: 25
+      length: 280
+      lifetime: 36
+      interp: circleOut
+      cone: 9
+      colorFrom: ffdd55
+      colorTo: db401c
+      sizeFrom: 4
+      sizeTo: 0.6
+    }
+    hitEffect: hitFlameSmall
+    despawnEffect: none
+    hittable: true
+    reflectable: true
+  }
+}
+category: turret
+research: TB0-radiation
+requirements: [
+  i07-advanced-mass/700
+  i02-tinium/2000
+  i06-lizandri/900
+  i08-igneous-crystalia/1500
+]

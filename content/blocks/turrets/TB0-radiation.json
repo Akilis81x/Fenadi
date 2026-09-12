@@ -1,0 +1,218 @@
+shownPlanets: [Fenadi]
+type: ItemTurret
+Name: Radiation
+size: 3
+health: 1000
+range: 230
+targetGround: true
+targetAir: false
+squareSprite: true
+shots: 1
+recoil: 0
+rotate: false
+rotateSpeed: 0
+shake: 2
+shootCone: 360
+shootSound: shootArtillerySapBig
+inaccuracy: 0
+cooldown: 0.07
+reload: 100
+shootY: 0
+maxAmmo: 30
+ammoPerShot: 8
+category: turret
+research: TA3-voltage
+requirements: [
+  i07-advanced-mass/250
+  i02-tinium/835
+  i06-lizandri/525
+]
+consumes: {
+  liquid: l03-baruga/0.2
+}
+coolant: {
+  type: ConsumeCoolant
+  allowLiquid: true
+  amount: 0.4
+}
+ammoTypes: {
+  i05-crystalia: {
+    damage: 350
+    splashDamage: 100
+    splashDamageRadius: 100
+    rangeChange: -95
+    status: fenadis-corruption
+    statusDuration: 600
+    buildingDamageMultiplier: 0.1
+    speed: 1
+    lifetime: 1
+    height: 18
+    collidesAir: false
+    width: 20
+        chargeEffect: {
+          type: multiEffect
+          lifetime: 170
+          followParent: true
+          effects: [
+            {
+              type: ParticleEffect
+              lightOpacity: 0
+              particles: 10
+              length: 30
+              baseLength: -30
+              lifetime: 50
+              layer: 106
+              interp: exp5
+              sizeFrom: 34
+              sizeTo: 23
+              colorFrom: d08205
+              colorTo: c78b2a
+            },
+            {
+              type: ParticleEffect,
+              particles: 5
+              offset: 15
+              baseLength: 25
+              sizeFrom: 0
+              sizeTo: 4
+              length: 100
+              lifetime: 120
+              colorFrom: d08205
+              colorTo: c78b2a
+              cone: 360
+            },
+]
+}
+        hitEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: WaveEffect
+            sizeFrom: 20
+            sizeTo: 168
+           colorFrom: bf28ba
+           colorTo: e7c8e6
+          }
+        ]
+      },
+}
+  i09-lagavo: {
+    damage: 650
+    splashDamage: 400
+    splashDamageRadius: 270
+    status: fenadis-corruption
+    statusDuration: 5560
+    buildingDamageMultiplier: 0.1
+    speed: 1
+    lifetime: 1
+    height: 68
+    collidesAir: false
+    width: 80
+        chargeEffect: {
+          type: multiEffect
+          lifetime: 170
+          followParent: true
+          effects: [
+            {
+              type: ParticleEffect
+              lightOpacity: 0
+              particles: 10
+              length: 30
+              baseLength: -30
+              lifetime: 50
+              layer: 106
+              interp: exp5
+              sizeFrom: 34
+              sizeTo: 23
+              colorFrom: d08205
+              colorTo: c78b2a
+            },
+            {
+              type: ParticleEffect,
+              particles: 5
+              offset: 15
+              baseLength: 25
+              sizeFrom: 0
+              sizeTo: 4
+              length: 100
+              lifetime: 120
+              colorFrom: d08205
+              colorTo: c78b2a
+              cone: 360
+            },
+]
+}
+    hitEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: WaveEffect
+            sizeFrom: 20
+            sizeTo: 268
+           colorFrom: 400289
+           colorTo:  200243
+          }
+        ]
+      },
+}
+  i14-otucium: {
+    damage: 1150
+    splashDamage: 920
+    splashDamageRadius: 330
+    status: fenadis-cyber-strike
+    statusDuration: 600
+    rangeChange: +115
+    buildingDamageMultiplier: 0.1
+    speed: 4
+    lifetime: 1
+    height: 168
+    collidesAir: false
+    width: 220
+        chargeEffect: {
+          type: multiEffect
+          lifetime: 170
+          followParent: true
+          effects: [
+            {
+              type: ParticleEffect
+              lightOpacity: 0
+              particles: 10
+              length: 30
+              baseLength: -30
+              lifetime: 50
+              layer: 106
+              interp: exp5
+              sizeFrom: 34
+              sizeTo: 23
+              colorFrom: d08205
+              colorTo: c78b2a
+            },
+            {
+              type: ParticleEffect,
+              particles: 5
+              offset: 15
+              baseLength: 25
+              sizeFrom: 0
+              sizeTo: 4
+              length: 100
+              lifetime: 120
+              colorFrom: d08205
+              colorTo: c78b2a
+              cone: 360
+            },
+]
+}
+    hitEffect: {
+        type: MultiEffect
+        effects: [
+          {
+            type: WaveEffect
+            sizeFrom: 20
+            sizeTo: 388
+           colorFrom: 4a5857
+           colorTo: 859b99
+          }
+        ]
+      },
+}
+}

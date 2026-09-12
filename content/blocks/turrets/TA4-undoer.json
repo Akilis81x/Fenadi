@@ -1,0 +1,59 @@
+{
+  "name": "Undoer",
+  "size": 3,
+  "shoot": {
+    "type": "ShootSpread",
+    "shots": 120,
+    "spread": 6
+  },
+  "range": 200,
+  "reload": 1,
+  "shootSound": "pew",
+  "shootCone": 360,
+    "shootX": 0,
+    "shootY": 0,
+  "shootEffect": {
+    "type": "ParticleEffect",
+    "colorFrom": "769f4d",
+    "colorTo": "557238",
+    "cone": 360,
+    "lifetime": 50
+  },
+  "shoot": {
+    "type": "ShootSpread",
+    "shots": 100,
+    "spread": 5
+  },
+  "ammoTypes": {
+    "l01-yavama": {
+      "type": "LiquidBulletType",
+      "damage": 0,
+      "lifetime": 57,
+      "knockback": 10,
+      "liquid": "l01-yavama"
+    }
+  },
+  "rotateSpeed": 200,
+  "targetAir": true,
+  "targetGround": true,
+  "squareSprite": false,
+  "recoil": 0,
+  "requirements": [
+    {
+      "item": "i01-basic-mass",
+      "amount": 250
+    },
+    {
+      "item": "i05-crystalia",
+      "amount": 420
+    },
+    {
+      "item": "i06-lizandri",
+      "amount": 115
+    }
+  ],
+  "category": "turret",
+  "type": "LiquidTurret",
+  "health": 200,
+  "research": "TA0-guard"
+}
