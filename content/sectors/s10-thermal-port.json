@@ -1,0 +1,14 @@
+"name": "Thermal Port",
+"difficulty": 3,
+"planet": "Fenadi",
+"sector": 37,
+"alwaysUnlocked": true,
+"research": {
+  "parent": "s09-geothermal-post",
+  "objectives": [
+    {
+      "type": "SectorComplete",
+      "preset": "s09-geothermal-post"
+    }
+  ]
+}

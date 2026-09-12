@@ -1,0 +1,14 @@
+"name": "Radiactive Combustion Plant",
+"difficulty": 4,
+"planet": "Fenadi",
+"sector": 7,
+"alwaysUnlocked": true,
+"research": {
+  "parent": "s07-chemical-synthesis-plant",
+  "objectives": [
+    {
+      "type": "SectorComplete",
+      "preset": "s07-chemical-synthesis-plant"
+    }
+  ]
+}

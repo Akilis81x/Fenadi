@@ -1,0 +1,20 @@
+{
+  "name": "Yavama Drain",
+  "difficulty": 5,
+  "planet": "Fenadi",
+  "sector": 54,
+  "allowLaunchLoadout": true,
+  "addStartingItems": true,
+  "noLighting": false,
+  "captureWave": 30,
+  "alwaysUnlocked": true,
+  "research": {
+  "parent": "s07-chemical-synthesis-plant",
+  "objectives": [
+    {
+      "type": "SectorComplete",
+      "preset": "s07-chemical-synthesis-plant"
+    }
+  ]
+}
+}

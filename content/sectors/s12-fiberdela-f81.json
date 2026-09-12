@@ -1,0 +1,20 @@
+{
+  "name": "Fiberdela F81",
+  "difficulty": 5,
+  "planet": "Fenadi",
+  "sector": 5,
+  "allowLaunchLoadout": true,
+  "addStartingItems": true,
+  "noLighting": false,
+  "captureWave": 30,
+  "alwaysUnlocked": true,
+  "research": {
+  "parent": "s08-basic-operations-center",
+  "objectives": [
+    {
+      "type": "SectorComplete",
+      "preset": "s08-basic-operations-center"
+    }
+  ]
+}
+}
