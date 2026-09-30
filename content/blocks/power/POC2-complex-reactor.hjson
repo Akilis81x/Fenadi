@@ -44,8 +44,8 @@
     "liquids": [
       "l02-soro/1.2",
       "l03-baruga/1.2",
-      "l04-explosive-liquid/0.8",
-      "l05-dense-liquid/0.6"
+      "l04-explosive-liquid/1",
+      "l05-dense-liquid/1"
 ],
    "items": [
       "i16-complex-fiber/1"
