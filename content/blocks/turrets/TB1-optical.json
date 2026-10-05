@@ -9,7 +9,8 @@
   "rotateSpeed": 2,
   "conductivePower": true,
   "itemCapacity": 40,
-  "shootY": 1,
+  "shootSound": "shootParallax",
+  "shootY": 0,
   "drawer": {
   "type": "drawTurret",
   "basePrefix": "TB1-optical-",
