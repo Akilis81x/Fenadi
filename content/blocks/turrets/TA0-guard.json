@@ -12,7 +12,7 @@
   "maxAmmo": 20,
   "ammoPerShot": 2,
   "targetGround": true,
-  "shootSound": "shoot",
+  "shootSound": "shootSalvo",
   "recoil": 1.2,
   "recoilTime": 20,
   "consumes": {
