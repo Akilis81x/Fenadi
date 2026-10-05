@@ -1,0 +1,336 @@
+{
+  "name": "Fragata de Invasion Planetaria",
+  "databaseTag": "fenadi-primal-unit",
+  "shownPlanets": ["Fenadi"]
+  "singleTarget": true,
+  "drawShields": true,
+  "lightRadius": 200,
+  "rotateSpeed": 0.4,
+  "range": 30,
+  "rangeMax": 70,
+  "speed": 0.3,
+  "accel": 0.8,
+  "drag": 0.9,
+  "engineColor": "9d902e",
+  "outlineColor": "859b99",
+  "faceTarget": true,
+  "omniMovement": false,
+  "flying": true,
+  "health": 1114000,
+  "hitSize": 152,
+  "armor": 156,
+  "immunities": ["fenadis-ignition", "fenadis-agony", "fenadis-suffocation", "fenadis-cyber-strike", "fenadis-friction", "fenadis-agony", "slow", "sapped", "burning", "shocked"],
+  "engineOffset": 38,
+  "engines": [
+    {
+      "x": -30,
+      "y": -80,
+      "rotation": 90,
+      "radius": 16
+    },
+    {
+      "x": 30,
+      "y": -80,
+      "rotation": 90,
+      "radius": 16
+    },
+    {
+      "x": -50,
+      "y": -88,
+      "rotation": 90,
+      "radius": 26
+    },
+    {
+      "x": 50,
+      "y": -88,
+      "rotation": 90,
+      "radius": 26
+    }
+  ],
+  "engineSize": 18,
+  "lowAltitude": true,
+  "abilities": [
+{
+    "type": "SpawnDeathAbility",
+    "amount": 40,
+    "faceOutwards": true,
+    "spread": 90,
+    "unit": "UG0-protective",
+  },
+  {
+    "type": "SpawnDeathAbility",
+    "amount": 4,
+    "spread": 45,
+    "faceOutwards": true,
+    "unit": "UI0-guardian",
+  },
+  {
+    "type": "SpawnDeathAbility",
+    "amount": 4,
+    "spread": 45,
+    "faceOutwards": true,
+    "unit": "UI2-ton",
+  }
+]
+  "weapons": [
+    {
+      "name": "artillery-invasora",
+      "x": 33,
+      "y": 72,
+      "ejectEffect": "casing4",
+      "mirror": true,
+      "top": true,
+      "rotate": true,
+      "rotateSpeed": 0.8,
+      "pierceBuilding": true,
+      "pierce": true,
+      "shake": 4,
+      "shootY": 21,
+      "cooldownTime": 60,
+      "reload": 95,
+      "shoot": {
+        "type": "shootPattern",
+        "shots": 3,
+        "shotDelay": 5
+      },
+      "recoil": 4,
+      "shootSound": "shootScepter",
+      "bullet": {
+        "type": "BasicBulletType",
+        "sprite": "fenadi-bullet-perf",
+        "status": "fenadis-cyber-strike",
+        "damage": 856,
+        "height": 16,
+        "width": 9,
+        "shrinkX": 0,
+        "shrinkY": 0,
+        "speed": 5,
+        "splashDamage": 460,
+        "splashDamageRadius": 40,
+        "lifetime": 95,
+}
+    },
+    {
+      "name": "artillery-invasora",
+      "x": 64,
+      "y": 67,
+      "ejectEffect": "casing4",
+      "mirror": true,
+      "top": true,
+      "rotate": true,
+      "rotateSpeed": 1.5,
+      "pierceBuilding": true,
+      "pierce": true,
+      "shake": 4,
+      "shootY": 21,
+      "cooldownTime": 60,
+      "reload": 55,
+      "shoot": {
+        "type": "shootPattern",
+        "shots": 3,
+        "shotDelay": 5
+      },
+      "recoil": 4,
+      "shootSound": "shootScepter",
+      "bullet": {
+        "type": "BasicBulletType",
+        "sprite": "fenadi-bullet-perf",
+        "status": "fenadis-cyber-strike",
+        "damage": 856,
+        "height": 16,
+        "width": 9,
+        "shrinkX": 0,
+        "shrinkY": 0,
+        "speed": 5,
+        "splashDamage": 460,
+        "splashDamageRadius": 40,
+        "lifetime": 95,
+      }
+    },
+    {
+      "name": "artillery-invasora",
+      "x": 46,
+      "y": -49,
+      "ejectEffect": "casing4",
+      "mirror": true,
+      "top": true,
+      "rotate": true,
+      "rotateSpeed": 0.3,
+      "pierceBuilding": true,
+      "pierce": true,
+      "shake": 4,
+      "shootY": 21,
+      "cooldownTime": 60,
+      "reload": 75,
+      "shoot": {
+        "type": "shootPattern",
+        "shots": 3,
+        "shotDelay": 5
+      },
+      "recoil": 4,
+      "shootSound": "shootScepter",
+      "bullet": {
+        "type": "BasicBulletType",
+        "sprite": "fenadi-bullet-perf",
+        "status": "fenadis-cyber-strike",
+        "damage": 856,
+        "height": 16,
+        "width": 9,
+        "shrinkX": 0,
+        "shrinkY": 0,
+        "speed": 5,
+        "splashDamage": 460,
+        "splashDamageRadius": 40,
+        "lifetime": 95,
+}
+    },
+    {
+      "name": "sector-destroyer",
+      "x": 0,
+      "y": 10,
+      "shootY": 20,
+      "reload": 3190,
+      "mirror": false,
+      "alternate": false,
+      "layerOffset": -0.001,
+      "shootCone": 180,
+      "shootSound": "shootScathe",
+      "rotate": true,
+      "under": true,
+      "bullet": {
+        "type": "basicBulletType",
+        "lifetime": 1,
+        "spawnUnit": "fenadi-PIF-sector-destroyer"
+      }
+    },
+    { 
+      "name": "rail-capsule-invasora",
+      "x": 33,
+      "y": 0,
+      "mirror": true,
+      "top": true,
+      "rotate": true,
+      "rotateSpeed": 0.5,
+      "pierceBuilding": true,
+      "pierce": true,
+      "shake": 4,
+      "reload": 175,
+  "bullet": {
+  "type": "RailBulletType",
+  "damage": 4350,
+  "shootSound": "shootTitan",
+  "shootEffect": {
+    "type": "MultiEffect",
+    "effects": [
+    "smokeCloud"{
+    "type": "ParticleEffect",
+    "colorTo": "294537",
+    "line": true,
+    "particles": 12,
+    "length": 10,
+    "cone": 10,
+    "strokeFrom": 2,
+    "strokeTo": 0,
+    "lenFrom": 5,
+    "lenTo": 0
+    }
+    ]
+}
+  "status": "fenadis-reverse-control",
+  "length": 480,
+  "pointEffectSpace": 20,
+  "pierce": true,
+  "pierceEffect": {
+    "particles": 10,
+    "length": 0,
+    "lifetime": 25,
+    "sizeFrom": 20,
+    "sizeTo": 8,
+    "region": "fenadi-super-rail",
+    "colorTo": "294537"
+}
+"pointEffect": {
+  "type": "ParticleEffect",
+  "particles": 1,
+  "length": 0,
+  "lifetime": 25,
+  "sizeFrom": 20,
+  "sizeTo": 0,
+  "region": "fenadi-super-rail",
+  "colorFrom": "294537",
+  "colorTo": "246042"
+}
+"lineEffect": {
+  "type": "ParticleEffect",
+  "particles": 1,
+  "length": 0,
+  "lifetime": 25,
+  "sizeFrom": 20,
+  "sizeTo": 0,
+  "region": "fenadi-super-rail",
+  "colorFrom": "246042",
+  "colorTo": "294537"
+}
+"hitEffect": {
+  "type": "MultiEffect",
+  "effects": [
+    {
+    "type": "WaveEffect",
+    "lifetime": 25,
+    "sides": 4,
+    "rotation": 0,
+    "sizeFrom": 0,
+    "sizeTo": 40,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "246042",
+    "colorTo": "294537"
+}
+    {
+    "type": "WaveEffect",
+    "lifetime": 25,
+    "sides": 4,
+    "rotation": 45,
+    "sizeFrom": 0,
+    "sizeTo": 40,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "294537",
+    "colorTo": "246042"
+}
+    {
+    "type": "WaveEffect",
+    "lifetime": 25,
+    "sizeFrom": 0,
+    "sizeTo": 64,
+    "strokeFrom": 4,
+    "strokeTo": 0,
+    "colorFrom": "246042",
+    "colorTo": "294537"
+}
+]
+}
+}
+}
+    {
+      "name": "atractor",
+      "reload": 25,
+      "x": 0,
+      "y": 88,
+      "rotate": true,
+      "shootSound": "shootArtillerySap",
+      "bullet": {
+        "type": "SapBulletType",
+        "sapStrength": 0,
+        "length": 520,
+        "damage": 190,
+        "shootEffect": "shootSmall",
+        "hitColor": "bf92f9",
+        "despawnEffect": "none",
+        "width": 5,
+        "lifetime": 120,
+        "knockback": -40
+}
+}
+]
+}

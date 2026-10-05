@@ -1,0 +1,68 @@
+{
+  "type": "flying",
+  "name": "Caza Primordial",
+  "databaseTag": "fenadi-primal-unit",
+  "shownPlanets": ["Fenadi"]
+  "drag": 0.2,
+  "speed": 4,
+  "accel": 0.5,
+  "circleTarget": true,
+  "armor": 80,
+  "health": 12260,
+  "flying": true,
+ "faceTarget": true,
+  "immunities": ["fenadis-ignition", "fenadis-agony", "fenadis-suffocation", "fenadis-cyber-strike", "fenadis-friction", "fenadis-agony", "slow", "sapped", "burning", "shocked"],
+   "abilities": [
+     {
+      "type": "ForceFieldAbility",
+      "radius": 10,
+      "regen": 2,
+      "max": 40040,
+      "cooldown": 680
+    } 
+  ],
+  "weapons": [
+    {
+      "name": "nothing",
+      "x": 0,
+      "y": 2,
+      "reload": 7,
+      "shootSound": "lasershoot",
+      "bullet": {
+        "type": "LaserBoltBulletType",
+        "speed": 6,
+        "lifetime": 100,
+        "damage": 222,
+        "pierce": true,
+        "pierceCap": 4,
+        "splashDamage": 75,
+        "mixColorFrom": "d4816b",
+        "mixColorTo": "ffd37f",
+        "homingRange": 170,
+        "homingPower": 0.18,
+        "hitEffect": {
+            "type": "MultiEffect",
+            "effects": [
+                {
+                    "type": "WaveEffect",
+                    "colorFrom": "d4816b",
+                    "colorTo": "ffd37f",
+                    "rotation": 3,
+                    "sizeFrom": 0,
+                    "sizeTo": 4
+                },
+                {
+                    "type": "WaveEffect",
+                    "colorFrom": "ffd37f",
+                    "colorTo": "d4816b",
+                    "rotation": 3,
+                    "sizeFrom": 4,
+                    "sizeTo": 0
+                }
+            ]
+        }
+      }
+    }
+  ],
+  "hitSize": 12
+}

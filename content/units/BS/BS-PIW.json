@@ -1,0 +1,148 @@
+{
+  "name": "Caminante de Invasion Planetaria",
+  "databaseTag": "fenadi-primal-unit",
+  "shownPlanets": ["Fenadi"]
+  "type": "mech",
+  "outlineColor": "2e2f34",
+  "hitSize": 89,
+  "flying": false,
+  "speed": 0.3,
+  "health": 509760,
+  "armor": 200,
+  "legMoveSpace": 0.4,
+  "canBoost": true,
+  "boostMultiplier": 2,
+  "singleTarget": true,
+  "omniMovement": true,
+  "faceTarget": true,
+  "rotateSpeed": 0.5,
+  "immunities": ["fenadis-ignition", "fenadis-agony", "fenadis-suffocation", "fenadis-cyber-strike", "fenadis-friction", "fenadis-agony", "slow", "sapped", "burning", "shocked"],
+  "abilities": [
+    {
+    "type": "ShieldRegenFieldAbility",
+    "reload": 140,
+    "range": 280,
+    "amount": 500,
+    "max": 2000
+}
+{
+      "type": "StatusFieldAbility", 
+      "range": 230, 
+      "reload": 180, 
+      "activeEffect": {
+        "type": "WaveEffect", 
+        "sizeFrom": 0, 
+        "sizeTo": 110, 
+        "colorFrom": "ed9436", 
+        "colorTo": "eb7e3c"
+      },
+      "duration": 590,
+      "effect": "fenadis-legions-motivation"
+}
+]
+  "weapons": [
+    {
+      "name": "BS-PIW-artillery"
+      "x": 24,
+      "y": 17,
+      "shake": 5,
+      "recoil": 6,
+      "reload": 220,
+      "alternate": true,
+      "shootSound": "shootArtillery",
+      "mirror": true,
+      "rotate": false,
+      "top": true,
+      "bullet": {
+        "type": "BasicBulletType",
+        "sprite": "fenadi-bullet-perf",
+        "frontColor": "5d3467",
+        "hitSound": "shootSmite",
+        "hitShake": 9,
+        "hitEffect": "instHit",
+        "backColor": "844892",
+        "width": 42,
+        "height": 42,
+        "speed": 2.2,
+        "lifetime": 375,
+        "scaleLife": true,
+        "damage": 860,
+        "spin": 1.6,
+        "pierce": true,
+        "pierceBuilding": true,
+        "status": "fenadis-reverse-control",
+        "statusDuration": 3800000,
+        "fragBullets": 8,
+        "fragBullet": {
+          "hitShake": 6,
+          "type": "ArtilleryBulletType",
+          "hitEffect": "hitMeltdown",
+          "hitSound": "explosion",
+          "sprite": "fenadi-bullet-perf",
+          "frontColor": "bd6bd0",
+          "backColor": "5d3467",
+          "width": 38,
+          "height": 38,
+          "speed": 1,
+          "lifetime": 60,
+          "damage": 235,
+        "status": "fenadis-cyber-strike",
+        "statusDuration": 800000,
+          "fragBullets": 9,
+          "fragBullet": {
+            "hitShake": 3,
+            "type": "BombBulletType",
+            "splashDamageRadius": 70,
+            "sprite": "fenadi-bullet-perf",
+            "hitSound": "explosion",
+            "width": 12,
+            "height": 12,
+            "hitEffect": {
+              "type": "WaveEffect",
+              "sizeFrom": 0,
+              "sizeTo": 18,
+              "colorFrom": "844892",
+              "colorTo": "5d3467"
+            },
+            "splashDamage": 230,
+            "speed": 0.5,
+            "lifetime": 60,
+            "fragBullets": 2,
+            "fragBullet": {
+              "hitShake": 1,
+              "type": "MissileBulletType",
+              "speed": 1.5,
+              "lifetime": 40,
+              "height": 16,
+              "width": 10,
+              "damage": 125,
+              "homingPower": 5,
+              "homingRange": 160,
+              "homingDelay": 6,
+              "hitEffect": "blastExplosion",
+            }
+          }
+}
+}
+    },
+      {
+        "name": "BS-PIW-laser",
+        "x": 30,
+        "y": -25,
+        "mirror": true,
+        "reload": 420,
+        "shootSound": "shootMeltdown",
+        "rotate": true,
+        "rotateSpeed": 0.8,
+        "continuous": true,
+        "bullet": {
+          "type": "ContinuousLaserBulletType",
+          "length": 700,
+          "width": 8,
+          "lifetime": 190,
+          "fadeTime": 90,
+          "damage": 555
+        }
+}
+]
+}

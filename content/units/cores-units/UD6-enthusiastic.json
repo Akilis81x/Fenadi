@@ -1,0 +1,59 @@
+{
+  "type": "tank",
+  "name": "Enthusiastic",
+  "shownPlanets": ["Fenadi"]
+  "health": 500,
+  "armor": 6,
+  "buildSpeed": 1.6,
+  "mineSpeed": 5,
+  "mineTier": 2,
+  "mineWalls": true,
+  "mineHardnessScaling": false,
+  "mineFloor": true,
+  "speed": 1.72,
+  "canBoost": true,
+  "coreUnitDock": true,
+  "boostMultiplier": 3,
+  "hitSize": 11,
+  "squareShape": true,
+  "treadPullOffset": 8,
+  "immunities": ["fenadis-ignition", "fenadis-suffocation"],
+  "treadRects": [
+    {
+      "x": 7,
+      "y": -26,
+      "width": 14,
+      "height": 51
+    }
+  ],
+  "singleTarget": true,
+  "omniMovement": false,
+  "rotateSpeed": 5,
+  "faceTarget": false,
+  "flying": false,
+  "range": 120,
+  "weapons": [
+    {
+      "x": 0,
+      "name": "UD6-enthusiastic-weapon",
+      "y": -1,
+      "reload": 18,
+      "mirror": false,
+      "rotate": true,
+      "shoot": {
+        "shots": 2,
+        "shotDelay": 2
+      },
+      "bullet": {
+        "type": "BasicBulletType",
+        "width": 6,
+        "height": 10,
+        "speed": 3,
+        "lifetime": 40,
+        "damage": 48,
+        "pierce": false,
+        "buildingDamageMultiplier": 0.01
+      }
+    }
+  ],
+}
