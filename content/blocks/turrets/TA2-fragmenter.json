@@ -10,6 +10,7 @@
   "reload": 70,
   "recoil": 4,
   "ammoUseEffect": "casing3",
+  "shootSound": "shootDisperse",
   "shootCone": 15,
   "maxAmmo": 20,
   "ammoPerShot": 4,
