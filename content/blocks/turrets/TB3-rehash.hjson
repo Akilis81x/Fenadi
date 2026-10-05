@@ -12,7 +12,7 @@ consumes: {
 shoot: {
   shots: 8
 }
-shootSound: flame
+shootSound: shootFlame
 ammoTypes: {
   i08-igneous-crystalia: {
     damage: 58
