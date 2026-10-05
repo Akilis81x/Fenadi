@@ -1,0 +1,15 @@
+{
+  "localizedName": "Legions Motivation",
+  "damageMultiplier": 3.2,
+  "reloadMultiplier": 2.15,
+  "effect": {
+    "type": "ParticleEffect",
+    "lifetime": 25,
+    "length": 21,
+    "sizeFrom": 4,
+    "sizeTo": 10,
+    "particles": 10,
+    "colorFrom": "FF875BFF",
+    "colorTo": "FF875BFF"
+  }
+}
