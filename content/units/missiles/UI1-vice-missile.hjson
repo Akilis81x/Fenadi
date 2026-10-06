@@ -1,0 +1,60 @@
+{
+  "type": "missile",
+  "flying": true,
+  "template": "MissileUnitType",
+  "speed": 6,
+  "lifetime": 40,
+  "deathExplosionEffect": "massiveExplosion",
+  "trailColor": "29e139",
+  "trailLength": 22,
+  "weapons": [
+    {
+      "shootCone": 360,
+      "mirror": false,
+      "reload": 1,
+      "shootOnDeath": true,
+      "shake": 10,
+      "bullet": {
+        "type": "ExplosionBulletType",
+        "splashDamage": 700,
+        "splashDamageRadius": 180,
+        "hitColor": "f3e979",
+        "healAmount": 58
+        "collidesAir": true,
+        "collidesGround": true,
+        "fragLifeMin": 0.4,
+        "fragBullets": 57,
+        "fragBullet": {
+          "type": "FlakBulletType",
+          "speed": 6.4,
+          "damage": 240,
+          "collidesAir": true,
+          "collidesGround": true,
+          "collidesTiles": true,
+          "drag": 0.02,
+          "hitEffect": "massiveExplosion",
+          "despawnEffect": "scatheSlash",
+          "knockback": 88.8,
+          "lifetime": 93,
+          "height": 28,
+          "width": 19,
+          "healAmount": 35,
+          "splashDamageRadius": 90,
+          "splashDamage": 380,
+          "backColor": "13631a",
+          "trailColor": "29e139",
+          "hitColor": "07a314",
+          "frontColor": "bdeec1",
+          "smokeEffect": "shootBigSmoke2",
+          "despawnShake": 7,
+          "lightRadius": 30,
+          "lightColor": "29e139",
+          "lightOpacity": 0.5,
+          "trailLength": 20,
+          "trailWidth": 3.5,
+          "trailEffect": "none"
+        }
+      }
+    }
+  ]
+}
