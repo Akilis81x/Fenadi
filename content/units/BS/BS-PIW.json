@@ -43,7 +43,7 @@
   "weapons": [
     {
       "name": "BS-PIW-artillery"
-      "x": 24,
+      "x": 26,
       "y": 17,
       "shake": 5,
       "recoil": 6,
