@@ -8,11 +8,7 @@
   "scaledHealth": 60,
   "liquidCapacity": 190,
   "attribute": "spores",
-  "maxBoost": 1,
-  "minEfficiency": 1,
-  "baseEfficiency": 1,
-  "boostScale": 1,
-  "envRequired": 1,
+  "maxBoost": 1.8,
   "category": "crafting",
   "craftEffect": {
      "type": "ParticleEffect",
