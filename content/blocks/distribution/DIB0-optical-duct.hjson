@@ -3,6 +3,7 @@ name: Optical Duct
 category: distribution
 research: DIA0-tinium-conveyor
 speed: 1.7
+armored: true
 health: 480
 conductivePower: true
 acceptsItems: true
