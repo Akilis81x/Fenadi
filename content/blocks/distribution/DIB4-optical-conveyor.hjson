@@ -2,7 +2,7 @@ type: StackConveyor
 name: "Optical Conveyor"
 health: 820
 itemCapacity: 55
-speed: 0.2
+speed: 0.20
 outputRouter: false
 hasPower: true
 consumesPower: true
