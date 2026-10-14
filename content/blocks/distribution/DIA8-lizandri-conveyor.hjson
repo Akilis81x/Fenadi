@@ -2,7 +2,7 @@ type: StackConveyor
 name: Lizandri Conveyor
 health: 620
 itemCapacity: 15
-speed: 0.10
+speed: 0.7
 outputRouter: false
 underBullets: true
 baseEfficiency: 1
