@@ -30,7 +30,7 @@
   "liquidCapacity": 480,
   "attribute": "spores",
   "maxBoost": 2.5,
-  "craftTime": 155,
+  "craftTime": 195,
   "craftEffect": {
      "type": "ParticleEffect",
      "particles": 8,
