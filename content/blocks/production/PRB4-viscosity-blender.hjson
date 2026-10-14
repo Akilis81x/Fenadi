@@ -8,7 +8,7 @@
   "itemCapacity": 80,
   "health": 720,
   "liquidCapacity": 250,
-  "craftTime": 145,
+  "craftTime": 60,
   "updateEffect": "none",
   "drawer": {
     "type": "DrawMulti",
