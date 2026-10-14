@@ -26,7 +26,7 @@
   },
   "liquidCapacity": 120,
   "size": 3,
-  "craftTime": 60,
+  "craftTime": 110,
   "health": 240,
   "hasPower": true,
   "hasLiquids": true,
