@@ -8,7 +8,7 @@
   "hasItems": true,
   "itemCapacity": 60,
   "liquidCapacity": 260,
-  "craftTime": 50,
+  "craftTime": 90,
   "updateEffect": "hitMeltdown",
   "drawer": {
     "type": "DrawMulti",
