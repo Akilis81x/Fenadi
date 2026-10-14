@@ -54,19 +54,19 @@
   "results": [
     {
       "item": "i01-basic-mass",
-      "amount": 52
+      "amount": 50
     },
     {
       "item": "i02-tinium",
-      "amount": 52
+      "amount": 50
     },
     {
       "item": "i03-elastic-fiber",
-      "amount": 28
+      "amount": 40
     },
     {
       "item": "i05-crystalia",
-      "amount": 32
+      "amount": 40
     }
   ],
   "category": "crafting",
