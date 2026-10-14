@@ -2,7 +2,7 @@ type: StackConveyor
 name: Tinium Conveyor
 health: 220
 itemCapacity: 5
-speed: 0.10
+speed: 0.05
 outputRouter: false
 underBullets: true
 baseEfficiency: 1
