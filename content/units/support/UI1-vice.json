@@ -84,6 +84,7 @@
         "type": "BasicBulletType",
         "sprite": "large-orb",
         "damage": 20,
+        "healAmount": 50
         "height": 4,
         "width": 2,
         "speed": 8,
