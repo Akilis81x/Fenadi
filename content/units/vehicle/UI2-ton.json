@@ -87,7 +87,7 @@
       "bullet": {
         "type": "BasicBulletType",
         "sprite": "shell",
-        "damage": 180,
+        "damage": 70,
         "height": 14,
         "width": 12,
         "speed": 8,
