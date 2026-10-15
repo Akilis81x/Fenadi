@@ -3,7 +3,7 @@
   "type": "Wall",
   "insulated": true,
   "absorbLasers": true,
-  "health": 1250,
+  "health": 2250,
   "armor": 42,
   "size": 1,
   "shownPlanets": ["Fenadi"],
