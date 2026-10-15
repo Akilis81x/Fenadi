@@ -83,7 +83,7 @@
       "bullet": {
         "type": "BasicBulletType",
         "sprite": "large-orb",
-        "damage": 50,
+        "damage": 20,
         "height": 4,
         "width": 2,
         "speed": 8,
