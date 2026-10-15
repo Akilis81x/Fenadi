@@ -19,7 +19,7 @@
         "splashDamage": 200,
         "splashDamageRadius": 80,
         "hitColor": "f3e979",
-        "healAmount": 19
+        "healAmount": 39
         "collidesAir": true,
         "collidesGround": true,
         "fragLifeMin": 0.4,
