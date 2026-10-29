@@ -9,7 +9,7 @@
   "noiseColor": "79599d",
   "density": 600,
   "attrs": {
-    "spores"; 1.7,
+    "spores": 1.7,
     "light": -0.15,
     "heat": -0.3
   },
