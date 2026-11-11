@@ -4,7 +4,7 @@
   "variants": 0,
   "statusDuration": 60,
   "isLiquid": "true",
-  "albedo": 5.5,
+  "albedo": 0.5,
   "status": "fenadis-corrosive",
   "cacheLayer": "water",
   "liquidDrop": "l03-baruga"
