@@ -118,7 +118,7 @@
       "shootSound": "ascends",
       "bullet": {
         "type": "basicBulletType",
-        "lifetime": 130,
+        "lifetime": 190,
         "damage": 820,
         "width": 35,
         "height": 35,
